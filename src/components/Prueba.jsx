@@ -26,14 +26,14 @@ const Prueba = () => {
     if (element.length === 0) {
       return null;
     }
-    console.log(element);
-    namer.map((item) => {
-      if (item.food === element) {
-        console.log("encontrado");
-      } else {
-        console.log("no encontrado");
-      }
-    });
+    const resultSearch = namer.filter((item) => {
+      return item.food.includes(element)
+    })
+    console.log(resultSearch, 'search')
+    ALIMENTOS.map((item) => {
+      const resultTotal = item.id.includes(resultSearch.ident)
+      console.log(resultTotal, 'total')
+    })
   };
 
   return (
@@ -47,7 +47,8 @@ const Prueba = () => {
       ></textarea>
       <button className="rounded" onClick={handleSearch}>
         Funcionará
-      </button>
+      </button> 
+      <h1></h1>
     </>
   );
 };
