@@ -11,24 +11,24 @@ const Prueba = () => {
   console.log(element, "element");
 
   const handleSearch = () => {
-    let search = []
+    let search = [];
     if (element.length === 0) {
-      return null
+      return null;
     } else {
       ALIMENTOS.map((item) => {
-        console.log(element, 'element')
-        console.log(item.Alimento, 'alimento')
-        if(item.Alimento.toLowerCase().includes(element)){
-          search.push(item)
+        console.log(element, "element");
+        console.log(item.Alimento, "alimento");
+        if (item.Alimento.toLowerCase().includes(element)) {
+          search.push(item);
         } else {
-          null
+          null;
         }
-      })
+      });
       setResultSearch(search);
-      console.log(search, 'search')
+      console.log(search, "search");
     }
   };
-  console.log(resultSearch, 'resultS')
+  console.log(resultSearch, "resultS");
 
   return (
     <>
@@ -43,15 +43,17 @@ const Prueba = () => {
         Funcionará
       </button>
       {resultSearch.length > 0 ? <h1>Solución</h1> : null}
-      {resultSearch.length > 0 ? 
-      <ul>
-        {resultSearch.map((item) => (
-          <div>
-            <li>{item.Alimento}</li>
-            <li>{item.RacionGramos}</li>
-          </div>
-        ))}
-      </ul> : null}
+      {resultSearch.length > 0 ? (
+        <ul>
+          {resultSearch.map((item) => (
+            <div>
+              <li>{item.Alimento}</li>
+              <li>{item.RacionGramos}</li>
+              <li>{item.IG}</li>
+            </div>
+          ))}
+        </ul>
+      ) : null}
     </>
   );
 };

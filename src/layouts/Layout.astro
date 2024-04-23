@@ -1,4 +1,5 @@
 ---
+import Title from '../components/Title.astro';
 interface Props {
 	title: string;
 }
@@ -16,7 +17,8 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="flex flex-col items-center mt-5">
+		<Title />
 		<slot />
 	</body>
 </html>
@@ -48,4 +50,9 @@ const { title } = Astro.props;
 			Courier New,
 			monospace;
 	}
+	/* body{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	} */
 </style>
