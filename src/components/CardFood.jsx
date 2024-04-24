@@ -1,4 +1,4 @@
-import { ALIMENTOS, COLOR } from "./alimentos/alimentos";
+import { ALIMENTOS } from "./alimentos/alimentos";
 import { useState } from "react";
 
 const Prueba = () => {
@@ -8,7 +8,6 @@ const Prueba = () => {
   const handleBusqueda = (event) => {
     setElement(event.target.value.toLowerCase());
   };
-  // console.log(element, "element");
 
   const handleSearch = () => {
     let search = [];
@@ -16,8 +15,6 @@ const Prueba = () => {
       return null;
     } else {
       ALIMENTOS.map((item) => {
-        // console.log(element, "element");
-        // console.log(item.Alimento, "alimento");
         if (item.Alimento.toLowerCase().includes(element)) {
           search.push(item);
         } else {
@@ -25,10 +22,8 @@ const Prueba = () => {
         }
       });
       setResultSearch(search);
-      // console.log(search, "search");
     }
   };
-  console.log(resultSearch, "resultS");
 
   return (
     <div className="flex flex-col justify-center items-center p-5">
@@ -45,17 +40,27 @@ const Prueba = () => {
       >
         Alimento
       </button>
-      {resultSearch.length > 0 ? <h1>Solución</h1> : null}
       {resultSearch.length > 0 ? (
-        <ul className="flex flex-col justify-center items-center">
-          {resultSearch.map((item) => (
-            <div className="flex flex-row justify-center items-center gap-3">
-              <li>{item.Alimento}</li>
-              <li>{item.RacionGramos}</li>
-              <li className={`${item.color} p-1`}>{item.IG}</li>
-            </div>
-          ))}
-        </ul>
+        <table>
+          <thead>
+            <tr className="bg-green-300">
+              <th className="mx-4">Alimento</th>
+              <th className="mx-4">1 Ración de HC en gramos</th>
+              <th className="mx-4">IG</th>
+            </tr>
+          </thead>
+          <tbody>
+            {resultSearch.map((item) => (
+              <tr>
+                <td className="mx-4">{item.Alimento}</td>
+                <td className="mx-4 flex flex-col justify-center items-center">
+                  {item.RacionGramos}
+                </td>
+                <td className={`${item.color} px-4`}>{item.IG}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       ) : null}
     </div>
   );

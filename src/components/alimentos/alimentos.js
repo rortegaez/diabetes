@@ -1,7 +1,7 @@
 export const COLOR = {
-  verde: /* "#81BE83"  */'bg-green-400',
-  naranja: /* "#FF7722"  */'bg-orange-400',
-  rojo: "#C8102E"
+  verde: 'bg-green-400',
+  naranja: 'bg-orange-400',
+  rojo: 'bg-red-400'
 }
 export const Nintendo = {
   nombre: "hola",
