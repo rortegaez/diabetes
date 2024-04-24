@@ -1,6 +1,6 @@
 export const COLOR = {
-  verde: "#81BE83",
-  naranja: "#FF7722",
+  verde: /* "#81BE83"  */'bg-green-400',
+  naranja: /* "#FF7722"  */'bg-orange-400',
   rojo: "#C8102E"
 }
 export const Nintendo = {

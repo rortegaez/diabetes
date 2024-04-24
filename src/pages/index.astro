@@ -4,26 +4,9 @@ import CardFood from '../components/CardFood'
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="w-1/2 bg-red-500 mt-3 p-1">
+  <main class="w-1/2 bg-green-100 mt-3 p-1 rounded-xl">
     <CardFood client:visible />
   </main>
 </Layout>
 
-<style>
-  /* main {
-    background-color: red;
-    margin: auto;
-    padding: 1rem;
-    width: 800px;
-    max-width: calc(100% - 2rem);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-  } */
-  .link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    gap: 2rem;
-    padding: 0;
-  }
-</style>
+
