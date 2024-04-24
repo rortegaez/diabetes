@@ -8,6 +8,9 @@ const Prueba = () => {
   const handleBusqueda = (event) => {
     setElement(event.target.value.toLowerCase());
   };
+  const deleteResultSearch = () => {
+    setResultSearch([]);
+  };
 
   const handleSearch = () => {
     let search = [];
@@ -34,16 +37,24 @@ const Prueba = () => {
         onChange={handleBusqueda}
         className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200"
       ></textarea>
-      <button
-        className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600"
-        onClick={handleSearch}
-      >
-        Alimento
-      </button>
+      <section className="flex flex-row gap-5">
+        <button
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-24"
+          onClick={handleSearch}
+        >
+          Alimento
+        </button>
+        <button
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-24"
+          onClick={deleteResultSearch}
+        >
+          Borrar
+        </button>
+      </section>
       {resultSearch.length > 0 ? (
-        <table>
+        <table className="w-2/3">
           <thead>
-            <tr className="bg-green-300">
+            <tr className="bg-green-300 p-3">
               <th className="mx-4">Alimento</th>
               <th className="mx-4">1 Ración de HC en gramos</th>
               <th className="mx-4">IG</th>
