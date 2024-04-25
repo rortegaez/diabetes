@@ -553,4 +553,88 @@ export const ALIMENTOS = [
       }
     ]
   },
+  {
+    id: 42,
+    tipo: "cerealesyderivados",
+    Alimento: "Galleta tipo Maria",
+    RacionGramos: 15,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 7,
+        RacionHC: 0.4
+      }
+    ]
+  },
+  {
+    id: 43,
+    tipo: "cerealesyderivados",
+    Alimento: "Galleta tipo Principe",
+    RacionGramos: 14,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 15,
+        RacionHC: 1
+      }
+    ]
+  },
+  {
+    id: 44,
+    tipo: "cerealesyderivados",
+    Alimento: "Galleta sin azucar",
+    RacionGramos: 18,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 7,
+        RacionHC: 0.3
+      }
+    ]
+  },
+  {
+    id: 45,
+    tipo: "cerealesyderivados",
+    Alimento: "Garbanzo crudo",
+    RacionGramos: 20,
+  },
+  {
+    id: 46,
+    tipo: "cerealesyderivados",
+    Alimento: "Garbanzo en conserva",
+    RacionGramos: 70,
+    IG: 35,
+    color: COLOR.naranja,
+  },
+  {
+    id: 47,
+    tipo: "cerealesyderivados",
+    Alimento: "Garbanzo hervido",
+    RacionGramos: 55,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "palto grande",
+        cantidadGramos: 300,
+        RacionHC: 6
+      },
+      {
+        nombre: "plato mediano",
+        cantidadGramos: 200,
+        RacionHC: 4
+      },
+      {
+        nombre: "Guarnición",
+        cantidadGramos: 100,
+        RacionHC: 2
+      }
+    ]
+  },
 ]
