@@ -1306,4 +1306,584 @@ export const ALIMENTOS = [
     IG: 55,
     color: COLOR.verde,
   },
+  {
+    id: 106,
+    tipo: "frutas",
+    Alimento: "Aguacate",
+    RacionGramos: 160,
+    IG: 10,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 107,
+    tipo: "frutas",
+    Alimento: "Albaricoque",
+    RacionGramos: 150,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 50,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 108,
+    tipo: "frutas",
+    Alimento: "Arandano",
+    RacionGramos: 100,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 109,
+    tipo: "frutas",
+    Alimento: "Caqui (persimon)",
+    RacionGramos: 65,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 110,
+    tipo: "frutas",
+    Alimento: "Cereza",
+    RacionGramos: 100,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "12 unidades",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 111,
+    tipo: "frutas",
+    Alimento: "Chirimoya",
+    RacionGramos: 50,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 4
+      },
+    ]
+  },
+  {
+    id: 112,
+    tipo: "frutas",
+    Alimento: "Ciruela",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "2 unidades",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 113,
+    tipo: "frutas",
+    Alimento: "Coco fresco",
+    RacionGramos: 65,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "tajada mediana",
+        cantidadGramos: 35,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 114,
+    tipo: "frutas",
+    Alimento: "Coco seco",
+    RacionGramos: 100,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "cucharada colmada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 115,
+    tipo: "frutas",
+    Alimento: "Datil",
+    RacionGramos: 15,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 12,
+        RacionHC: 0.7
+      },
+    ]
+  },
+  {
+    id: 116,
+    tipo: "frutas",
+    Alimento: "Frambuesa",
+    RacionGramos: 150,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "un puñado, con la mando cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 117,
+    tipo: "frutas",
+    Alimento: "Fresones",
+    RacionGramos: 200,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "8 unidades grandes",
+        cantidadGramos: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 118,
+    tipo: "frutas",
+    Alimento: "Granada",
+    RacionGramos: 70,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 175,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 119,
+    tipo: "frutas",
+    Alimento: "Grosella",
+    RacionGramos: 200,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "un puñado, con la mano cerrda",
+        cantidadGramos: 20,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 120,
+    tipo: "frutas",
+    Alimento: "Grosella negra",
+    RacionGramos: 140,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 121,
+    tipo: "frutas",
+    Alimento: "Higos",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 50,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 122,
+    tipo: "frutas",
+    Alimento: "Kiwi",
+    RacionGramos: 100,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 123,
+    tipo: "frutas",
+    Alimento: "Limón",
+  },
+  {
+    id: 124,
+    tipo: "frutas",
+    Alimento: "Litchi",
+    RacionGramos: 70,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "6 unidades",
+        cantidadGramos:750,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 125,
+    tipo: "frutas",
+    Alimento: "Mandarina",
+    RacionGramos: 100,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 126,
+    tipo: "frutas",
+    Alimento: "Mango",
+    RacionGramos: 100,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 127,
+    tipo: "frutas",
+    Alimento: "Manzana",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 128,
+    tipo: "frutas",
+    Alimento: "Manzana asada",
+    RacionGramos: 50,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 120,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 129,
+    tipo: "frutas",
+    Alimento: "Melocoton",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 130,
+    tipo: "frutas",
+    Alimento: "Melon",
+    RacionGramos: 200,
+    IG: 60,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "una tajada mediana",
+        cantidadGramos: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 131,
+    tipo: "frutas",
+    Alimento: "Membrillo",
+    RacionGramos: 150,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 350,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 132,
+    tipo: "frutas",
+    Alimento: "Membrillo, dulce",
+    RacionGramos: 20,
+    IG: 65,
+    color: COLOR.naranja,
+  },
+  {
+    id: 133,
+    tipo: "frutas",
+    Alimento: "Moras",
+    RacionGramos: 150,
+    IG: 25,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.15
+      },
+    ]
+  },
+  {
+    id: 134,
+    tipo: "frutas",
+    Alimento: "Naranjas",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 135,
+    tipo: "frutas",
+    Alimento: "Nectarina",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 136,
+    tipo: "frutas",
+    Alimento: "Nispero",
+    RacionGramos: 100,
+    IG: 55,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 33,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 137,
+    tipo: "frutas",
+    Alimento: "Pera",
+    RacionGramos: 100,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 138,
+    tipo: "frutas",
+    Alimento: "Papaya",
+    RacionGramos: 55,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "una tajada",
+        cantidadGramos: 250,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 139,
+    tipo: "frutas",
+    Alimento: "Paraguayo",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 140,
+    tipo: "frutas",
+    Alimento: "Piña",
+    RacionGramos: 100,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 141,
+    tipo: "frutas",
+    Alimento: "Piña en conserva",
+    RacionGramos: 85,
+    IG: 53,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "dos rodajas",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 142,
+    tipo: "frutas",
+    Alimento: "Piña en su jugo",
+    RacionGramos: 60,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "dos rodajas",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 143,
+    tipo: "frutas",
+    Alimento: "Platano",
+    RacionGramos: 50,
+    IG: 50,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad pequeña",
+        cantidadGramos: 100,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 144,
+    tipo: "frutas",
+    Alimento: "Sandia",
+    RacionGramos: 200,
+    IG: 75,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "una tajada grande",
+        cantidadGramos: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 145,
+    tipo: "frutas",
+    Alimento: "Uva",
+    RacionGramos: 50,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "12 unidades",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
 ]
