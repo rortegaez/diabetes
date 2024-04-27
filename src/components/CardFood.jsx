@@ -35,17 +35,17 @@ const Prueba = () => {
         id="buscador"
         value={element.trim()}
         onChange={handleBusqueda}
-        className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200"
+        className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200 max-md:w-full max-lg:w-2/3"
       ></textarea>
       <section className="flex flex-row gap-5">
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-24"
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-96 max-lg:w-2/4"
           onClick={handleSearch}
         >
           Alimento
         </button>
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-24"
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-96 max-lg:w-2/4"
           onClick={deleteResultSearch}
         >
           Borrar
