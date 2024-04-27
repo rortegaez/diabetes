@@ -1,7 +1,8 @@
 import { ALIMENTOS } from "./alimentos/alimentos";
 import { useState } from "react";
+import Calc from "./Calc";
 
-const Prueba = () => {
+const CardFood = () => {
   const [element, setElement] = useState("");
   const [resultSearch, setResultSearch] = useState([]);
   const [found, setFound] = useState(false);
@@ -100,17 +101,23 @@ const Prueba = () => {
                   : "1 Ración de HC en gramos"}
               </th>
               <th className="mx-4">IG</th>
+              <th>Calculator</th>
             </tr>
           </thead>
           <tbody>
             {resultSearch.map((item) => (
               <tr>
-                <td className="mx-4 border-b-2 border-black-300">{item.Alimento}</td>
+                <td className="mx-4 border-b-2 border-black-300">
+                  {item.Alimento}
+                </td>
                 <td className="mx-4 flex flex-col justify-center items-center">
                   {item.RacionGramos}
                 </td>
                 <td className={`${item.color} px-4`}>
                   {item.RacionGramos === 0 ? "No evaluable" : item.IG}
+                </td>
+                <td>
+                  <Calc cantidadHC={item.RacionGramos} />
                 </td>
               </tr>
             ))}
@@ -121,4 +128,4 @@ const Prueba = () => {
   );
 };
 
-export default Prueba;
+export default CardFood;

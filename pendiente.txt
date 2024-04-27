@@ -5,3 +5,5 @@ crear que cuando se pulse sobre un alimento salgan los ejemplos.
 estudiar el tema de no influyan las tildes
 
 hacer que el search se pueda escribir la s, pero que no influya en la busqueda
+
+Además la letra s cuando se esta escribienda en mitad de una palabra no sale, hay que corregirlo
