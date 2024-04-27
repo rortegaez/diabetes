@@ -4,32 +4,70 @@ import { useState } from "react";
 const Prueba = () => {
   const [element, setElement] = useState("");
   const [resultSearch, setResultSearch] = useState([]);
+  const [found, setFound] = useState(false);
+  const [type, setType] = useState("gr");
 
   const handleBusqueda = (event) => {
-    setElement(event.target.value.toLowerCase());
+    let nameEvent = event.target.value.toLowerCase();
+    if (nameEvent.endsWith("s")) {
+      nameEvent = nameEvent.slice(0, -1);
+    }
+    setElement(nameEvent);
   };
   const deleteResultSearch = () => {
+    setFound(false);
     setResultSearch([]);
   };
 
   const handleSearch = () => {
+    let nameSearch = "";
     let search = [];
     if (element.length === 0) {
       return null;
     } else {
-      ALIMENTOS.map((item) => {
+      ALIMENTOS.forEach((item) => {
+        console.log(nameSearch, "nam");
         if (item.Alimento.toLowerCase().includes(element)) {
           search.push(item);
-        } else {
-          null;
         }
       });
+      if (search.length > 0) {
+        search.forEach((item) => {
+          item.ejemplo?.forEach((subitem) => {
+            if ("cantidadGramos" in subitem) {
+              setType("gr");
+            }
+            if ("cantidadCC" in subitem) {
+              setType("cc");
+            }
+          });
+        });
+      }
+      console.log(search, "search");
       setResultSearch(search);
+      if (search.length === 0) {
+        console.log("true");
+        return setFound(true);
+      } else {
+        console.log("false");
+        return null;
+      }
     }
   };
 
   return (
     <div className="flex flex-col justify-center items-center p-5">
+      {found ? (
+        <div className="absolute z-20 w-48 h-24 bg-yellow-300 flex flex-col items-center justify-center border-4 border-yellow-700 rounded-2xl">
+          <h1>No encontrado</h1>
+          <button
+            className="mt-5 px-10  rounded-lg bg-green-400 border-2 border-green-700 active:border-gray-500 active:bg-green-600"
+            onClick={deleteResultSearch}
+          >
+            X
+          </button>
+        </div>
+      ) : null}
       <textarea
         name="buscador"
         id="buscador"
@@ -56,7 +94,11 @@ const Prueba = () => {
           <thead>
             <tr className="bg-green-300 p-3">
               <th className="mx-4">Alimento</th>
-              <th className="mx-4">1 Ración de HC en gramos</th>
+              <th className="mx-4">
+                {type === "cc"
+                  ? "Ración de HC en cc"
+                  : "1 Ración de HC en gramos"}
+              </th>
               <th className="mx-4">IG</th>
             </tr>
           </thead>
@@ -67,7 +109,9 @@ const Prueba = () => {
                 <td className="mx-4 flex flex-col justify-center items-center">
                   {item.RacionGramos}
                 </td>
-                <td className={`${item.color} px-4`}>{item.IG}</td>
+                <td className={`${item.color} px-4`}>
+                  {item.RacionGramos === 0 ? "No evaluable" : item.IG}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -76,4 +120,5 @@ const Prueba = () => {
     </div>
   );
 };
+
 export default Prueba;
