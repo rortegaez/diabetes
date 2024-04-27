@@ -116,9 +116,9 @@ const CardFood = () => {
                 <td className={`${item.color} px-4`}>
                   {item.RacionGramos === 0 ? "No evaluable" : item.IG}
                 </td>
-                {/* <td>
-                  <Calc cantidadHC={item.RacionGramos} client:visible />
-                </td> */}
+                <td>
+                  <Calc cantidadHC={item.RacionGramos} />
+                </td>
               </tr>
             ))}
           </tbody>
