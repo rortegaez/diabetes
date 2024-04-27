@@ -75,22 +75,22 @@ const Prueba = () => {
         onChange={handleBusqueda}
         className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200 max-md:w-full max-lg:w-2/3"
       ></textarea>
-      <section className="flex flex-row gap-5">
+      <section className="flex flex-row gap-5 w-full">
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-96 max-lg:w-2/4"
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
           onClick={handleSearch}
         >
           Alimento
         </button>
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-96 max-lg:w-2/4"
+          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
           onClick={deleteResultSearch}
         >
           Borrar
         </button>
       </section>
       {resultSearch.length > 0 ? (
-        <table className="w-2/3">
+        <table className="w-full xl:w-2/3">
           <thead>
             <tr className="bg-green-300 p-3">
               <th className="mx-4">Alimento</th>
@@ -105,7 +105,7 @@ const Prueba = () => {
           <tbody>
             {resultSearch.map((item) => (
               <tr>
-                <td className="mx-4">{item.Alimento}</td>
+                <td className="mx-4 border-b-2 border-black-300">{item.Alimento}</td>
                 <td className="mx-4 flex flex-col justify-center items-center">
                   {item.RacionGramos}
                 </td>
