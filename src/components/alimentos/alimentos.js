@@ -18,7 +18,7 @@ export const ALIMENTOS = [
     ejemplo: [
       {
         nombre: "unidad",
-        cantidadMl: 125,
+        cantidadCC: 125,
         RacionHC: 0.6
       }
     ]
@@ -3932,7 +3932,7 @@ export const ALIMENTOS = [
   {
     id: 296,
     tipo: "otros",
-    Alimento: "Turrón tipo Alicante",
+    Alimento: "Turron tipo Alicante",
     RacionGramos: 25,
     ejemplo: [
       {

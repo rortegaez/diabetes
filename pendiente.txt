@@ -1,10 +1,7 @@
-completar la base de datos.
-
 crear calculadora.
 
 crear que cuando se pulse sobre un alimento salgan los ejemplos.
 
-corregir que cuando se pone en plural el alimento no se encuentra, que aparezca porque el principio es igual, al igual que los acentos no influyan en la busqueda.
-crear un menu de alimento no incluido cuando no este en la lista
+estudiar el tema de no influyan las tildes
 
-Cuando la racionGramos es igual a 0, quiere decir que el alimento es "no valorable"
+hacer que el search se pueda escribir la s, pero que no influya en la busqueda
