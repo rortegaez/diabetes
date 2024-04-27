@@ -1886,4 +1886,2105 @@ export const ALIMENTOS = [
       },
     ]
   },
+  {
+    id: 146,
+    tipo: "hortaliza",
+    Alimento: "Acelga",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 250,
+        RacionHC: 0.8
+      },
+    ]
+  },
+  {
+    id: 147,
+    tipo: "hortaliza",
+    Alimento: "Ajo",
+    RacionGramos: 40,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "3 dientes",
+        cantidadGramos: 10,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 148,
+    tipo: "hortaliza",
+    Alimento: "Alcachofa",
+    RacionGramos: 300,
+    IG: 20,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 150,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 149,
+    tipo: "hortaliza",
+    Alimento: "Alga",
+    RacionGramos: 200,
+  },
+  {
+    id: 150,
+    tipo: "hortaliza",
+    Alimento: "Apio",
+    RacionGramos: 500,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 151,
+    tipo: "hortaliza",
+    Alimento: "Apio-nabo",
+    RacionGramos: 500,
+    ejemplo: [
+      {
+        nombre: "guarnición",
+        cantidadGramos: 125,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 152,
+    tipo: "hortaliza",
+    Alimento: "Berenjena",
+    RacionGramos: 300,
+    IG: 20,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad grande",
+        cantidadGramos: 300,
+        RacionHC: 1
+      },
+      {
+        nombre: "guarnición",
+        cantidadGramos: 125,
+        RacionHC: 0.4
+      }
+    ]
+  },
+  {
+    id: 153,
+    tipo: "hortaliza",
+    Alimento: "Berro",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 154,
+    tipo: "hortaliza",
+    Alimento: "Berza",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 155,
+    tipo: "hortaliza",
+    Alimento: "Borraja",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 156,
+    tipo: "hortaliza",
+    Alimento: "Brocoli",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 300,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 157,
+    tipo: "hortaliza",
+    Alimento: "Calabacin",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 300,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 158,
+    tipo: "hortaliza",
+    Alimento: "Calabaza",
+    RacionGramos: 200,
+    IG: 75,
+    color: COLOR.rojo,
+  },
+  {
+    id: 159,
+    tipo: "hortaliza",
+    Alimento: "Cardo",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 160,
+    tipo: "hortaliza",
+    Alimento: "Cebpñña",
+    RacionGramos: 150,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 161,
+    tipo: "hortaliza",
+    Alimento: "Cebolla frita en aros",
+    RacionGramos: 100,
+  },
+  {
+    id: 162,
+    tipo: "hortaliza",
+    Alimento: "Champiñon",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 163,
+    tipo: "hortaliza",
+    Alimento: "Col acida",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 164,
+    tipo: "hortaliza",
+    Alimento: "Col de Bruselas, colifror",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 300,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 165,
+    tipo: "hortaliza",
+    Alimento: "Edamame",
+    RacionGramos: 100,
+    IG: 35,
+    color: COLOR.verde,
+  },
+  {
+    id: 166,
+    tipo: "hortaliza",
+    Alimento: "Escarola",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde
+  },
+  {
+    id: 167,
+    tipo: "hortaliza",
+    Alimento: "Endibia",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 100,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 168,
+    tipo: "hortaliza",
+    Alimento: "Esparrago blanco en conserva",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 169,
+    tipo: "hortaliza",
+    Alimento: "Esparrago verde",
+    RacionGramos: 500,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 170,
+    tipo: "hortaliza",
+    Alimento: "Espinaca",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 171,
+    tipo: "hortaliza",
+    Alimento: "Grelos",
+    RacionGramos: 0,
+  },
+  {
+    id: 172,
+    tipo: "hortaliza",
+    Alimento: "Judia verde",
+    RacionGramos: 250,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 250,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 173,
+    tipo: "hortaliza",
+    Alimento: "Lechuga",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "racion individual",
+        cantidadGramos: 70,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 174,
+    tipo: "hortaliza",
+    Alimento: "Lombarda",
+    RacionGramos: 0,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 175,
+    tipo: "hortaliza",
+    Alimento: "Nabo",
+    RacionGramos: 300,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 100,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 176,
+    tipo: "hortaliza",
+    Alimento: "Palmito",
+    RacionGramos: 200,
+    IG: 20,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 25,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 177,
+    tipo: "hortaliza",
+    Alimento: "Pepino",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 178,
+    tipo: "hortaliza",
+    Alimento: "Pimiento rojo/verde",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 179,
+    tipo: "hortaliza",
+    Alimento: "Puerro",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 75,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 180,
+    tipo: "hortaliza",
+    Alimento: "Rabano",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "5 unidades medianas",
+        cantidadGramos: 100,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 181,
+    tipo: "hortaliza",
+    Alimento: "Remolacha",
+    RacionGramos: 150,
+    IG: 30,
+    color: COLOR.verde,
+  },
+  {
+    id: 182,
+    tipo: "hortaliza",
+    Alimento: "Repollo",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "guarnición",
+        cantidadGramos: 125,
+        RacionHC: 0.4
+      },
+    ]
+  },
+  {
+    id: 183,
+    tipo: "hortaliza",
+    Alimento: "Ruibarbo",
+    RacionGramos: 0,
+  },
+  {
+    id: 184,
+    tipo: "hortaliza",
+    Alimento: "Setas",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "plato grande",
+        cantidadGramos: 200,
+        RacionHC: 0.7
+      },
+    ]
+  },
+  {
+    id: 185,
+    tipo: "hortaliza",
+    Alimento: "Soja en brotes",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+  },
+  {
+    id: 186,
+    tipo: "hortaliza",
+    Alimento: "Tomate",
+    RacionGramos: 300,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nodmbre: "unidad mediana",
+        cantidadGramos: 150,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 187,
+    tipo: "hortaliza",
+    Alimento: "Zanahoria",
+    RacionGramos: 150,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 70,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 188,
+    tipo: "hortaliza",
+    Alimento: "Zanahoria hervida",
+    RacionGramos: 200,
+    IG: 85,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad mediana",
+        cantidadGramos: 70,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 189,
+    tipo: "hortaliza",
+    Alimento: "Zanahoria en conserva",
+    RacionGramos: 225,
+  },
+  {
+    id: 190,
+    tipo: "fruta",
+    Alimento: "Aceituna",
+    RacionGramos: 250,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "una tapa, 12 unidades",
+        cantidadGramos: 30,
+        RacionHC: 0
+      },
+    ]
+  },
+  {
+    id: 191,
+    tipo: "fruta",
+    Alimento: "Albaricoque seco",
+    RacionGramos: 15,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Unidad",
+        cantidadGramos: 5,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 192,
+    tipo: "fruta",
+    Alimento: "Almendra",
+    RacionGramos: 150,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 193,
+    tipo: "fruta",
+    Alimento: "Almendra tostada",
+    RacionGramos: 140,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 194,
+    tipo: "fruta",
+    Alimento: "Avellana",
+    RacionGramos: 150,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 195,
+    tipo: "fruta",
+    Alimento: "Cacahuete",
+    RacionGramos: 100,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 196,
+    tipo: "fruta",
+    Alimento: "Ciruela pasa",
+    RacionGramos: 15,
+    IG: 40,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 8,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 197,
+    tipo: "fruta",
+    Alimento: "Castaña cruda",
+    RacionGramos: 30,
+    IG: 65,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 10,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 198,
+    tipo: "fruta",
+    Alimento: "Castaña tostada",
+    RacionGramos: 25,
+    IG: 65,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 3,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 199,
+    tipo: "fruta",
+    Alimento: "Datil seco",
+    RacionGramos: 15,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 10,
+        RacionHC: 0.7
+      },
+    ]
+  },
+  {
+    id: 200,
+    tipo: "fruta",
+    Alimento: "Higo seco",
+    RacionGramos: 15,
+    IG: 40,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 8,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 201,
+    tipo: "fruta",
+    Alimento: "Nuez",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0
+      },
+    ]
+  },
+  {
+    id: 202,
+    tipo: "fruta",
+    Alimento: "Piñon",
+    RacionGramos: 300,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0
+      },
+    ]
+  },
+  {
+    id: 203,
+    tipo: "fruta",
+    Alimento: "Piñas",
+    RacionGramos: 80,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 15,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 204,
+    tipo: "fruta",
+    Alimento: "Pistacho",
+    RacionGramos: 80,
+    IG: 15,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 205,
+    tipo: "fruta",
+    Alimento: "Sesamo",
+    RacionGramos: 150,
+    ejemplo: [
+      {
+        nombre: "una cuchara sopera rasa",
+        cantidadGramos: 12,
+        RacionHC: 0.1
+      },
+    ]
+  },
+  {
+    id: 206,
+    tipo: "fruta",
+    Alimento: "Uva pasa",
+    RacionGramos: 15,
+    IG: 65,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "Un puñado, con la mano cerrada",
+        cantidadGramos: 20,
+        RacionHC: 1.25
+      },
+    ]
+  },
+  {
+    id: 207,
+    tipo: "bebidas",
+    Alimento: "bebida de almendra",
+    RacionGramos: 200,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 208,
+    tipo: "bebidas",
+    Alimento: "bebida de arroz",
+    RacionGramos: 200,
+    IG: 85,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 209,
+    tipo: "bebidas",
+    Alimento: "bebida de avena",
+    RacionGramos: 200,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 207,
+    tipo: "bebidas",
+    Alimento: "bebida de cacao",
+    RacionGramos: 100,
+    IG: 34,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 207,
+    tipo: "bebidas",
+    Alimento: "bebida de soja",
+    RacionGramos: 250,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 0.8
+      },
+    ]
+  },
+  {
+    id: 208,
+    tipo: "bebidas",
+    Alimento: "bebida isotonica",
+    RacionGramos: 130,
+    IG: 78,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "lata",
+        cantidadCC: 330,
+        RacionHC: 2.5
+      },
+      {
+        nombre: "botella",
+        cantidadCC: 500,
+        RacionHC: 3.8
+      }
+    ]
+  },
+  {
+    id: 209,
+    tipo: "bebidas",
+    Alimento: "Refresco tipo cola (10% de hidratos de carbono",
+    RacionGramos: 200,
+    IG: 70,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+      {
+        nombre: "lata",
+        cantidadCC: 330,
+        RacionHC: 3.3
+      }
+    ]
+  },
+  {
+    id: 210,
+    tipo: "bebidas",
+    Alimento: "Refresco de sabores (4.5% hidratos de carbono)",
+    RacionGramos: 200,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "Vaso",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+      {
+        nombre: "lata",
+        cantidadCC: 330,
+        RacionHC: 1.6
+      }
+    ]
+  },
+  {
+    id: 211,
+    tipo: "bebidas",
+    Alimento: "Refresco tipo cola o sabores light o sin azucar",
+    RacionGramos: 0,
+  },
+  {
+    id: 212,
+    tipo: "bebidas",
+    Alimento: "Bitter",
+    RacionGramos: 100,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "Vaso o botellin",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 213,
+    tipo: "bebidas",
+    Alimento: "Caldo de pollo o carne",
+    RacionGramos: 0
+  },
+  {
+    id: 214,
+    tipo: "bebidas",
+    Alimento: "Cava brut",
+    RacionGramos: 0,
+  },
+  {
+    id: 215,
+    tipo: "bebidas",
+    Alimento: "Cava seco o simiseco",
+    RacionGramos: 250,
+    ejemplo: [
+      {
+        nombre: "copa",
+        cantidadCC: 100,
+        RacionHC: 0.4
+      },
+    ]
+  },
+  {
+    id: 216,
+    tipo: "bebidas",
+    Alimento: "Cerveza",
+    RacionGramos: 250,
+    IG: 110,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "Vaso o caña",
+        cantidadCC: 200,
+        RacionHC: 0.8
+      },
+      {
+        nombre: "Tercio o mediana",
+        cantidadCC: 330,
+        RacionHC: 1.3
+      },
+      {
+        nombre: "Jarra",
+        cantidadCC: 500,
+        RacionHC: 2
+      }
+    ]
+  },
+  {
+    id: 217,
+    tipo: "bebidas",
+    Alimento: "Cerveza light",
+    RacionGramos: 300,
+    ejemplo: [
+      {
+        nombre: "Vaso o caña",
+        cantidadCC: 200,
+        RacionHC: 0.7
+      },
+      {
+        nombre: "Tercio o mediana",
+        cantidadCC: 330,
+        RacionHC: 1.1
+      },
+      {
+        nombre: "Jarra",
+        cantidadCC: 500,
+        RacionHC: 1.7
+      }
+    ]
+  },
+  {
+    id: 218,
+    tipo: "bebidas",
+    Alimento: "Cerveza sin alcohol",
+    RacionGramos: 250,
+    ejemplo: [
+      {
+        nombre: "Vaso o caña",
+        cantidadCC: 200,
+        RacionHC: 0.8
+      },
+      {
+        nombre: "Tercio o mediana",
+        cantidadCC: 330,
+        RacionHC: 1.3
+      },
+      {
+        nombre: "Jarra",
+        cantidadCC: 500,
+        RacionHC: 2
+      }
+    ]
+  },
+  {
+    id: 219,
+    tipo: "bebidas",
+    Alimento: "Ginebra, whisky, ron, vodka",
+    RacionGramos: 0,
+  },
+  {
+    id: 220,
+    tipo: "bebidas",
+    Alimento: "Gaseosa",
+    RacionGramos: 0,
+  },
+  {
+    id: 221,
+    tipo: "bebidas",
+    Alimento: "Horchata",
+    RacionGramos: 75,
+    ejemplo: [
+      {
+        nombre: "Vaso",
+        cantidadCC: 200,
+        RacionHC: 2.6
+      },
+    ]
+  },
+  {
+    id: 222,
+    tipo: "bebidas",
+    Alimento: "Horchata light",
+    RacionGramos: 300,
+    ejemplo: [
+      {
+        nombre: "Vaso",
+        cantidadCC: 200,
+        RacionHC: 0.7
+      },
+    ]
+  },
+  {
+    id: 223,
+    tipo: "bebidas",
+    Alimento: "Licor de melocoton o manzana",
+    RacionGramos: 30,
+    ejemplo: [
+      {
+        nombre: "Chupito",
+        cantidadCC: 30,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 224,
+    tipo: "bebidas",
+    Alimento: "Mosto",
+    RacionGramos: 70,
+    ejemplo: [
+      {
+        nombre: "copa",
+        cantidadCC: 100,
+        RacionHC: 1.4
+      },
+    ]
+  },
+  {
+    id: 225,
+    tipo: "bebidas",
+    Alimento: "Sangria",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "Vaso",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 226,
+    tipo: "bebidas",
+    Alimento: "Tonica",
+    RacionGramos: 100,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "Vaso o botellín",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 227,
+    tipo: "bebidas",
+    Alimento: "Vermut",
+    RacionGramos: 75,
+    ejemplo: [
+      {
+        nombre: "Copa",
+        cantidadCC: 100,
+        RacionHC: 1.3
+      },
+    ]
+  },
+  {
+    id: 228,
+    tipo: "bebidas",
+    Alimento: "Vino blanco o tinto",
+    RacionGramos: 0,
+  },
+  {
+    id: 229,
+    tipo: "bebidas",
+    Alimento: "Vino dulce",
+    RacionGramos: 75,
+    ejemplo: [
+      {
+        nombre: "chupito",
+        cantidadCC: 30,
+        RacionHC: 0.4
+      },
+    ]
+  },
+  {
+    id: 230,
+    tipo: "bebidas",
+    Alimento: "Zumo fruta natural o comercial",
+    RacionGramos: 100,
+    IG: 60,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 231,
+    tipo: "bebidas",
+    Alimento: "Zumo fruta natural sin azucar añadido",
+    RacionGramos: 200,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 232,
+    tipo: "bebidas",
+    Alimento: "Zumo de tomate",
+    RacionGramos: 200,
+    IG: 35,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Vaso o brick",
+        cantidadCC: 200,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 233,
+    tipo: "otros",
+    Alimento: "Arepa",
+    RacionGramos: 25,
+    IG: 72,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 0,
+        RacionHC: 4
+      },
+    ]
+  },
+  {
+    id: 234,
+    tipo: "otros",
+    Alimento: "Azucar blanco",
+    RacionGramos: 10,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "cucharada postre",
+        cantidadGramos: 8,
+        RacionHC: 0.8
+      },
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 20,
+        RacionHC: 2
+      },
+      {
+        nombre: "sobre",
+        cantidadGramos: 8,
+        RacionHC: 0.8
+      }
+    ]
+  },
+  {
+    id: 235,
+    tipo: "otros",
+    Alimento: "Azucar moreno",
+    RacionGramos: 10,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "cucharada postre",
+        cantidadGramos: 8,
+        RacionHC: 0.8
+      },
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 20,
+        RacionHC: 2
+      },
+      {
+        nombre: "sobre",
+        cantidadGramos: 8,
+        RacionHC: 0.8
+      }
+    ]
+  },
+  {
+    id: 236,
+    tipo: "otros",
+    Alimento: "Barrita energetica (de cereales)",
+    RacionGramos: 20,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 25,
+        RacionHC: 1.25
+      },
+    ]
+  },
+  {
+    id: 237,
+    tipo: "otros",
+    Alimento: "Bizcocho o melindro",
+    RacionGramos: 20,
+    IG: 65,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 25,
+        RacionHC: 1.25
+      },
+    ]
+  },
+  {
+    id: 238,
+    tipo: "otros",
+    Alimento: "Bolleria",
+    RacionGramos: 20,
+    IG: 70,
+    color: COLOR.rojo,
+  },
+  {
+    id: 239,
+    tipo: "otros",
+    Alimento: "Cacao en polvo",
+    RacionGramos: 12,
+    ejemplo: [
+      {
+        nombre: "cucharada postro",
+        cantidadGramos: 8,
+        RacionHC: 0.7
+      },
+      {
+        nombre: "cuchara sopera",
+        cantidadGramos: 20,
+        RacionHC: 1.7
+      }
+    ]
+  },
+  {
+    id: 240,
+    tipo: "otros",
+    Alimento: "Cacao en polvo sin azucar",
+    RacionGramos: 22,
+    ejemplo: [
+      {
+        nombre: "cucharada postre",
+        cantidadGramos: 8,
+        RacionHC: 0.4
+      },
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 20,
+        RacionHC: 0.9
+      }
+    ]
+  },
+  {
+    id: 241,
+    tipo: "otros",
+    Alimento: "Calamares a la romana",
+    RacionGramos: 120,
+    ejemplo: [
+      {
+        nombre: "4 unidades",
+        cantidadGramos: 0,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 242,
+    tipo: "otros",
+    Alimento: "Canalopnes con bechamel",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "3 unidades",
+        cantidadGramos: 250,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 243,
+    tipo: "otros",
+    Alimento: "Caramelo",
+    RacionGramos: 12,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 5,
+        RacionHC: 0.4
+      },
+    ]
+  },
+  {
+    id: 244,
+    tipo: "otros",
+    Alimento: "Carne rebozada",
+    RacionGramos: 150,
+    ejemplo: [
+      {
+        nombre: "un filete",
+        cantidadGramos: 100,
+        RacionHC: 0.6
+      },
+    ]
+  },
+  {
+    id: 245,
+    tipo: "otros",
+    Alimento: "Chocolate blanco o con leche",
+    RacionGramos: 17,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "pastilla",
+        cantidadGramos: 8,
+        RacionHC: 0.5
+      },
+      {
+        nombre: "tableta individual",
+        cantidadGramos: 30,
+        RacionHC: 1.7
+      }
+    ]
+  },
+  {
+    id: 246,
+    tipo: "otros",
+    Alimento: "Chocolate negro",
+    RacionGramos: 25,
+    IG: 20,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "pastilla",
+        cantidadGramos: 8,
+        RacionHC: 0.3
+      },
+      {
+        nombre: "tableta individual",
+        cantidadGramos: 30,
+        RacionHC: 1.2
+      }
+    ]
+  },
+  {
+    id: 247,
+    tipo: "otros",
+    Alimento: "Cocholate > 90% cacao",
+    RacionGramos: 78,
+  },
+  {
+    id: 248,
+    tipo: "otros",
+    Alimento: "Churros",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "2 unidades",
+        cantidadGramos: 25,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 249,
+    tipo: "otros",
+    Alimento: "Crema de cacao",
+    RacionGramos: 25,
+    IG: 55,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera colmada",
+        cantidadGramos: 25,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 250,
+    tipo: "otros",
+    Alimento: "Crema de cacahuete",
+    RacionGramos: 100,
+    IG: 40,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera colmada",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 251,
+    tipo: "otros",
+    Alimento: "Crema pastelera",
+    RacionGramos: 40,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera colmada",
+        cantidadGramos: 20,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 252,
+    tipo: "otros",
+    Alimento: "Crepe",
+    RacionGramos: 40,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 75,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 253,
+    tipo: "otros",
+    Alimento: "Croquetas",
+    RacionGramos: 50,
+    ejemplo: [
+      {
+        nombre: "3 unidades",
+        cantidadGramos: 90,
+        RacionHC: 1.8
+      },
+    ]
+  },
+  {
+    id: 254,
+    tipo: "otros",
+    Alimento: "Cruasan",
+    RacionGramos: 20,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 60,
+        RacionHC: 3
+      },
+    ]
+  },
+  {
+    id: 255,
+    tipo: "otros",
+    Alimento: "Doner kebab",
+    RacionGramos: 60,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 0,
+        RacionHC: 6
+      },
+    ]
+  },
+  {
+    id: 256,
+    tipo: "otros",
+    Alimento: "Donut",
+    RacionGramos: 23,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 58,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 257,
+    tipo: "otros",
+    Alimento: "Durum",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 0,
+        RacionHC: 4
+      },
+    ]
+  },
+  {
+    id: 258,
+    tipo: "otros",
+    Alimento: "Empanadilla de carne",
+    RacionGramos: 50,
+    ejemplo: [
+      {
+        nombre: "2 unidades",
+        cantidadGramos: 80,
+        RacionHC: 1.6
+      },
+    ]
+  },
+  {
+    id: 259,
+    tipo: "otros",
+    Alimento: "Ensaimada",
+    RacionGramos: 23,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 70,
+        RacionHC: 3
+      },
+    ]
+  },
+  {
+    id: 260,
+    tipo: "otros",
+    Alimento: "Ensaladilla rusa",
+    RacionGramos: 100,
+  },
+  {
+    id: 261,
+    tipo: "otros",
+    Alimento: "Fajita, tortilla mejicana",
+    RacionGramos: 20,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 40,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 262,
+    tipo: "otros",
+    Alimento: "Fructosa (edulcorante)",
+    RacionGramos: 10,
+    IG: 20,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 20,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 263,
+    tipo: "otros",
+    Alimento: "Gazpacho comercial",
+    RacionGramos: 150,
+    ejemplo: [
+      {
+        nombre: "vaso",
+        cantidadCC: 200,
+        RacionHC: 1.3
+      },
+    ]
+  },
+  {
+    id: 264,
+    tipo: "otros",
+    Alimento: "Gelatina comercial",
+    RacionGramos: 62,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadCC: 125,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 265,
+    tipo: "otros",
+    Alimento: "Gelatina 0%",
+    RacionGramos: 500,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadCC: 125,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 266,
+    tipo: "otros",
+    Alimento: "Glucosa (liquida o en pastillas)",
+    RacionGramos: 10,
+    IG: 100,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "pastilla pequeña",
+        cantidadGramos: 2.5,
+        RacionHC: 0.25
+      },
+      {
+        nombre: "pastilla normal",
+        cantidadGramos: 5,
+        RacionHC: 0.5
+      },
+      {
+        nombre: "gel deportista",
+        cantidadGramos: 40,
+        RacionHC: 2.5
+      },
+      {
+        nombre: "gel hipoglucemia",
+        cantidadGramos: 0,
+        RacionHC: 1.5
+      }
+    ]
+  },
+  {
+    id: 267,
+    tipo: "otros",
+    Alimento: "Golosinas",
+    RacionGramos: 18,
+    IG: 80,
+    color: COLOR.rojo,
+  },
+  {
+    id: 268,
+    tipo: "otros",
+    Alimento: "Ketchup",
+    RacionGramos: 50,
+    IG: 55,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "sobre",
+        cantidadGramos: 9,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 269,
+    tipo: "otros",
+    Alimento: "Lasaña",
+    RacionGramos: 100,
+    IG: 53,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "palto restaurante",
+        cantidadGramos: 260,
+        RacionHC: 2.7
+      },
+    ]
+  },
+  {
+    id: 270,
+    tipo: "otros",
+    Alimento: "Levadura",
+    RacionGramos: 130,
+  },
+  {
+    id: 271,
+    tipo: "otros",
+    Alimento: "Magdalena",
+    RacionGramos: 25,
+    IG: 70,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 50,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 272,
+    tipo: "otros",
+    Alimento: "Mazapan",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 35,
+        RacionHC: 1.4
+      },
+    ]
+  },
+  {
+    id: 273,
+    tipo: "otros",
+    Alimento: "Merengue",
+    RacionGramos: 11,
+  },
+  {
+    id: 274,
+    tipo: "otros",
+    Alimento: "Mermelada",
+    RacionGramos: 20,
+    IG: 65,
+    color: COLOR.naranja,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 25,
+        RacionHC: 1.25
+      },
+    ]
+  },
+  {
+    id: 275,
+    tipo: "otros",
+    Alimento: "Mermelada light",
+    RacionGramos: 100,
+    IG: 30,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 25,
+        RacionHC: 0.25
+      },
+    ]
+  },
+  {
+    id: 276,
+    tipo: "otros",
+    Alimento: "Miel",
+    RacionGramos: 13,
+    IG: 85,
+    color: COLOR.rojo,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 18,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 277,
+    tipo: "otros",
+    Alimento: "Mostaza",
+    RacionGramos: 0,
+  },
+  {
+    id: 278,
+    tipo: "otros",
+    Alimento: "Palomitas",
+    RacionGramos: 20,
+    IG: 85,
+    color: COLOR.rojo,
+  },
+  {
+    id: 279,
+    tipo: "otros",
+    Alimento: "Pastel de chocolate",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "porción",
+        cantidadGramos: 100,
+        RacionHC: 4
+      },
+    ]
+  },
+  {
+    id: 280,
+    tipo: "otros",
+    Alimento: "Pastel de crema",
+    RacionGramos: 35,
+    ejemplo: [
+      {
+        nombre: "porción",
+        cantidadGramos: 100,
+        RacionHC: 2.8
+      },
+    ]
+  },
+  {
+    id: 281,
+    tipo: "otros",
+    Alimento: "Pastel o tarta de manzana",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "porcion",
+        cantidadGramos: 100,
+        RacionHC: 4
+      },
+    ]
+  },
+  {
+    id: 282,
+    tipo: "otros",
+    Alimento: "Pepinillos en vinagre",
+    RacionGramos: 0,
+  },
+  {
+    id: 283,
+    tipo: "otros",
+    Alimento: "Pizza",
+    RacionGramos: 40,
+    IG: 45,
+    color: COLOR.verde,
+    ejemplo: [
+      {
+        nombre: "Triangulo 1/4 parte pizza",
+        cantidadGramos: 100,
+        RacionHC: 2.5
+      },
+      {
+        nombre: "Media pizza",
+        cantidadGramos: 200,
+        RacionHC: 5
+      },
+      {
+        nombre: "Pizza individual",
+        cantidadGramos: 400,
+        RacionHC: 10
+      }
+    ]
+  },
+  {
+    id: 284,
+    tipo: "otros",
+    Alimento: "Regaliz",
+    RacionGramos: 15,
+    ejemplo: [
+      {
+        nombre: "unidad",
+        cantidadGramos: 8,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 285,
+    tipo: "otros",
+    Alimento: "Rollito de primavera",
+    RacionGramos: 50,
+    ejemplo: [
+      {
+        nombre: "2 unidades",
+        cantidadGramos: 100,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 286,
+    tipo: "otros",
+    Alimento: "Salsa barbacoa",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "3 cucharadas soperas",
+        cantidadGramos: 50,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 287,
+    tipo: "otros",
+    Alimento: "Salsa bechamel",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "3 cucharadas soperas",
+        cantidadGramos: 50,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 288,
+    tipo: "otros",
+    Alimento: "Salsa boloñesa",
+    RacionGramos: 150,
+    ejemplo: [
+      {
+        nombre: "5 cucharadas soperas",
+        cantidadGramos: 75,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 289,
+    tipo: "otros",
+    Alimento: "Salsa carbonara",
+    RacionGramos: 0,
+  },
+  {
+    id: 290,
+    tipo: "otros",
+    Alimento: "Salsa de tomate comercial",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "3 cucharadas soperas",
+        cantidadGramos: 50,
+        RacionHC: 0.5
+      },
+    ]
+  },
+  {
+    id: 291,
+    tipo: "otros",
+    Alimento: "Salsa de soja",
+    RacionGramos: 0,
+  },
+  {
+    id: 292,
+    tipo: "otros",
+    Alimento: "Seitan",
+    RacionGramos: 300,
+    ejemplo: [
+      {
+        nombre: "porción",
+        cantidadGramos: 100,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 292,
+    tipo: "otros",
+    Alimento: "Sucedaneo de cafe, tipo EKO",
+    RacionGramos: 0,
+  },
+  {
+    id: 293,
+    tipo: "otros",
+    Alimento: "Surimi (palito de cangrejo)",
+    RacionGramos: 100,
+    ejemplo: [
+      {
+        nombre: "barrita",
+        cantidadGramos: 20,
+        RacionHC: 0.2
+      },
+    ]
+  },
+  {
+    id: 294,
+    tipo: "otros",
+    Alimento: "Tofu",
+    RacionGramos: 300,
+    ejemplo: [
+      {
+        nombre: "porción",
+        cantidadGramos: 100,
+        RacionHC: 0.3
+      },
+    ]
+  },
+  {
+    id: 295,
+    tipo: "otros",
+    Alimento: "Tortilla de patata",
+    RacionGramos: 120,
+    ejemplo: [
+      {
+        nombre: "tapa",
+        cantidadGramos: 100,
+        RacionHC: 1
+      },
+    ]
+  },
+  {
+    id: 296,
+    tipo: "otros",
+    Alimento: "Turrón tipo Alicante",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "1/6 tableta",
+        cantidadGramos: 50,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 297,
+    tipo: "otros",
+    Alimento: "Turron tipo chocolate",
+    RacionGramos: 20,
+    ejemplo: [
+      {
+        nombre: "1/6 tableta",
+        cantidadGramos: 50,
+        RacionHC: 2.5
+      },
+    ]
+  },
+  {
+    id: 298,
+    tipo: "otros",
+    Alimento: "Turron tipo Jijona",
+    RacionGramos: 25,
+    ejemplo: [
+      {
+        nombre: "1/6 tableta",
+        cantidadGramos: 50,
+        RacionHC: 2
+      },
+    ]
+  },
+  {
+    id: 299,
+    tipo: "otros",
+    Alimento: "Vinagre",
+    RacionGramos: 0,
+  },
+  {
+    id: 300,
+    tipo: "otros",
+    Alimento: "Vinagre tipo Modena",
+    RacionGramos: 15,
+    ejemplo: [
+      {
+        nombre: "cucharada sopera",
+        cantidadGramos: 15,
+        RacionHC: 1
+      },
+    ]
+  },
 ]
