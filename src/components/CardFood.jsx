@@ -1,5 +1,5 @@
 import { ALIMENTOS } from "./alimentos/alimentos";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Calc from "./Calc";
 
 const CardFood = () => {
@@ -8,27 +8,30 @@ const CardFood = () => {
   const [found, setFound] = useState(false);
   const [type, setType] = useState("gr");
 
-  const handleBusqueda = (event) => {
-    let nameEvent = event.target.value.toLowerCase();
-    if (nameEvent.endsWith("s")) {
-      nameEvent = nameEvent.slice(0, -1);
+  const endWithS = () => {
+    let updateElement = element.trim();
+    if (updateElement.endsWith("s")) {
+      updateElement = element.slice(0, -1);
     }
-    setElement(nameEvent);
+    return updateElement;
   };
+
+  const handleBusqueda = (event) => {
+    setElement(event.target.value.toLowerCase());
+  };
+
   const deleteResultSearch = () => {
     setFound(false);
     setResultSearch([]);
   };
 
-  const handleSearch = () => {
-    let nameSearch = "";
+  const handleSearch = (searchValue) => {
     let search = [];
-    if (element.length === 0) {
+    if (searchValue.length === 0) {
       return null;
     } else {
       ALIMENTOS.forEach((item) => {
-        console.log(nameSearch, "nam");
-        if (item.Alimento.toLowerCase().includes(element)) {
+        if (item.Alimento.toLowerCase().includes(searchValue)) {
           search.push(item);
         }
       });
@@ -44,16 +47,18 @@ const CardFood = () => {
           });
         });
       }
-      console.log(search, "search");
       setResultSearch(search);
       if (search.length === 0) {
-        console.log("true");
         return setFound(true);
       } else {
-        console.log("false");
         return null;
       }
     }
+  };
+  const handleClickButton = () => {
+    const updateElement = endWithS();
+    setElement(updateElement);
+    handleSearch(updateElement);
   };
 
   return (
@@ -65,7 +70,7 @@ const CardFood = () => {
             className="mt-5 px-10  rounded-lg bg-green-400 border-2 border-green-700 active:border-gray-500 active:bg-green-600"
             onClick={deleteResultSearch}
           >
-            X
+            Cerrar
           </button>
         </div>
       ) : null}
@@ -79,9 +84,9 @@ const CardFood = () => {
       <section className="flex flex-row gap-5 w-full">
         <button
           className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
-          onClick={handleSearch}
+          onClick={handleClickButton}
         >
-          Alimento
+          Buscar
         </button>
         <button
           className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
