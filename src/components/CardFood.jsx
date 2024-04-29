@@ -1,6 +1,7 @@
 import { ALIMENTOS } from "./alimentos/alimentos";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Calc from "./Calc";
+import LittleCard from "./LittleCard";
 
 const CardFood = () => {
   const [element, setElement] = useState("");
@@ -18,11 +19,6 @@ const CardFood = () => {
 
   const handleBusqueda = (event) => {
     setElement(event.target.value.toLowerCase());
-  };
-
-  const deleteResultSearch = () => {
-    setFound(false);
-    setResultSearch([]);
   };
 
   const handleSearch = (searchValue) => {
@@ -55,6 +51,12 @@ const CardFood = () => {
       }
     }
   };
+
+  const deleteResultSearch = () => {
+    setFound(false);
+    setResultSearch([]);
+  };
+
   const handleClickButton = () => {
     const updateElement = endWithS();
     setElement(updateElement);
@@ -63,17 +65,7 @@ const CardFood = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-5">
-      {found ? (
-        <div className="absolute z-20 w-48 h-24 bg-yellow-300 flex flex-col items-center justify-center border-4 border-yellow-700 rounded-2xl">
-          <h1>No encontrado</h1>
-          <button
-            className="mt-5 px-10  rounded-lg bg-green-400 border-2 border-green-700 active:border-gray-500 active:bg-green-600"
-            onClick={deleteResultSearch}
-          >
-            Cerrar
-          </button>
-        </div>
-      ) : null}
+      {found ? <LittleCard deleteResultSearch={deleteResultSearch} /> : null}
       <textarea
         name="buscador"
         id="buscador"
@@ -81,7 +73,7 @@ const CardFood = () => {
         onChange={handleBusqueda}
         className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200 max-md:w-full max-lg:w-2/3"
       ></textarea>
-      <section className="flex flex-row gap-5 w-full">
+      <section className="flex flex-row gap-5 w-full 2xl:justify-center 2xl:items-center">
         <button
           className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
           onClick={handleClickButton}
