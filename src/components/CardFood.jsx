@@ -2,6 +2,7 @@ import { ALIMENTOS } from "./alimentos/alimentos";
 import { useState } from "react";
 import Calc from "./Calc";
 import LittleCard from "./LittleCard";
+import CardLittleFood from "./CardLitteFood";
 
 const CardFood = () => {
   const [element, setElement] = useState("");
@@ -65,7 +66,9 @@ const CardFood = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-5">
-      {found ? <LittleCard deleteResultSearch={deleteResultSearch} /> : null}
+      <section className="flex flex-col justify-center items-center">
+        {found ? <LittleCard deleteResultSearch={deleteResultSearch} /> : null}
+      </section>
       <textarea
         name="buscador"
         id="buscador"
@@ -92,6 +95,7 @@ const CardFood = () => {
           <thead>
             <tr className="bg-green-300 p-3">
               <th className="mx-4">Alimento</th>
+              <th></th>
               <th className="mx-4">
                 {type === "cc"
                   ? "Ración de HC en cc"
@@ -102,10 +106,15 @@ const CardFood = () => {
             </tr>
           </thead>
           <tbody>
-            {resultSearch.map((item) => (
-              <tr>
+            {resultSearch.map((item, index) => (
+              <tr key={index}>
                 <td className="mx-4 border-b-2 border-black-300">
                   {item.Alimento}
+                </td>
+                <td>
+                  {item.ejemplo?.length > 0 ? (
+                    <CardLittleFood props={item.ejemplo} />
+                  ) : null}
                 </td>
                 <td className="mx-4 flex flex-col justify-center items-center">
                   {item.RacionGramos}
