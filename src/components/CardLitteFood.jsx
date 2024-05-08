@@ -7,6 +7,8 @@ const CardLittleFood = ({ props }) => {
     setIsOpen(!isOpen);
   };
 
+  console.log(props, "gramos");
+
   return (
     <>
       <div>
@@ -24,7 +26,7 @@ const CardLittleFood = ({ props }) => {
               <thead className="bg-yellow-500 px-6 rounded-lg">
                 <tr className="grid grid-cols-3 gap-8">
                   <td>Tipo</td>
-                  <td>{props.cantidadGramos ? "Gramos" : "CC"}</td>
+                  <td>{props[0]?.cantidadGramos ? "Gramos" : "CC"}</td>
                   <td>Insulina</td>
                 </tr>
               </thead>

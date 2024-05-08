@@ -1,7 +1,7 @@
 Estudiar el tema de no influyan las tildes
 
-En los ejemplos siempre sale en CC
+Poner de donde se toman los datos, para que pueda ser publica, indicar de donde tomamos el dato para calcular la insulina
 
-Poner de donde se toman los datos, para que pueda ser publica
+Crear en head mas espectacular
 
-Crear en head mas esoectacular
+cuando el tamaño es pequeño, el ver más algunos articulos no están bien centrados.

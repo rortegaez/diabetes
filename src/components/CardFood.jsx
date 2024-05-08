@@ -78,13 +78,13 @@ const CardFood = () => {
       ></textarea>
       <section className="flex flex-row gap-5 w-full 2xl:justify-center 2xl:items-center">
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
+          className="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950 w-1/2 xl:w-96"
           onClick={handleClickButton}
         >
           Buscar
         </button>
         <button
-          className="bg-green-500 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-600 w-1/2 xl:w-96"
+          className="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950 w-1/2 xl:w-96"
           onClick={deleteResultSearch}
         >
           Borrar
@@ -102,7 +102,7 @@ const CardFood = () => {
                   : "1 Ración de HC en gramos"}
               </th>
               <th className="mx-4">IG</th>
-              <th>Calculator</th>
+              <th>Calculadora</th>
             </tr>
           </thead>
           <tbody>
