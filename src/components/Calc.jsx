@@ -25,9 +25,9 @@ const Calc = ({ cantidadHC }) => {
         ></textarea>
         <button
           onClick={operator}
-          className="w-4 flex flex-col justify-center items-center mx-2"
+          className="box-border px-2 bg-green-400 border-4 border-green-700 rounded-xl active:border-green-950"
         >
-          X
+          Uds
         </button>
         <div className="bg-green-200 w-9 flex flex-col items-center px-6">
           {result}
