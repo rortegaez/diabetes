@@ -1,9 +1,10 @@
 import { useState } from "react";
 
 const CalcTotal = () => {
-  const [gr, setGr] = useState(0);
-  const [grHc, setGrHc] = useState(0);
-  const [grTotal, setGrTotal] = useState(0);
+  const [gr, setGr] = useState();
+  const [grHc, setGrHc] = useState();
+  const [grTotal, setGrTotal] = useState();
+  const [result, setResult] = useState();
 
   const handleGramos = (event) => {
     setGr(event.target.value);
@@ -11,11 +12,17 @@ const CalcTotal = () => {
   const handleGramosHc = (event) => {
     setGrHc(event.target.value);
   };
-  const hanldeGramosTotal = (event) => {
+  const handleGramosTotal = (event) => {
     setGrTotal(event.target.value);
   };
-  return;
-  <>
+  const handleOperation = () => {
+    console.log("boton presionado");
+    const first = (grTotal * grHc) / gr;
+    const second = first / 10;
+    return setResult(second);
+  };
+
+  return (
     <section>
       <textarea name="gramos" id="gramos" value={gr} onChange={handleGramos} />
       <textarea
@@ -30,8 +37,14 @@ const CalcTotal = () => {
         value={grTotal}
         onChange={handleGramosTotal}
       />
+      <button onClick={handleOperation} className="bg-red-200 m-3 px-2">
+        Calcular
+      </button>
+      <textarea name="result" id="result">
+        {result}
+      </textarea>
     </section>
-  </>;
+  );
 };
 
 export default CalcTotal;
