@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<script>
+    let gramos = 0
+    let hc = 0
+    let gramosConsumir = 0
+    const seguimos = () => {
+        console.log(gramos*hc+gramosConsumir)
+    }
+    const button = document.getElementById('primer')
+    button?.addEventListener('click', () => {
+        seguimos()
+    })
+    const gramosTextarea: HTMLTextAreaElement = document.getElementById('gramos') as HTMLTextAreaElement
+    const hcTextarea: HTMLTextAreaElement = document.getElementById('hc') as HTMLTextAreaElement
+    const gramosConsumirTextarea: HTMLTextAreaElement = document.getElementById('gramosConsumir') as HTMLTextAreaElement
+
+    const capturarValores = () => {
+    gramos = Number(gramosTextarea.value)
+    hc = Number(hcTextarea.value)
+    gramosConsumir = Number(gramosConsumirTextarea.value)
+
+    // Aquí puedes procesar los valores de las textareas
+    console.log(`Gramos: ${gramos}`);
+    console.log(`Carbohidratos: ${hc}`);
+    console.log(`gramos consumidos ${gramosConsumir}`)
+    };
+
+    // Capturar los valores cuando el usuario sale de las textareas
+    gramosTextarea?.addEventListener('change', capturarValores);
+    hcTextarea?.addEventListener('change', capturarValores);
+    gramosConsumirTextarea?.addEventListener('change', capturarValores)
+
+</script>
+
+<Layout title="prueba">
+    <h1>Esta es la calculadora</h1>
+    <section class="flex flex-row gap-5">
+        <textarea id="gramos" class="bg-orange-800" value="0" />
+        <textarea id="hc" class="bg-yellow-800" value="0" />
+        <textarea id="gramosConsumir" class="bg-purple-300" value="0" />
+    </section>
+    <button id="primer" class="bg-red-500">ok</button>
+</Layout>
