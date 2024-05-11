@@ -3,6 +3,7 @@ import { useState } from "react";
 import Calc from "./Calc";
 import LittleCard from "./LittleCard";
 import CardLittleFood from "./CardLitteFood";
+import ClickButton from "./element/ClickButton";
 
 const CardFood = () => {
   const [element, setElement] = useState("");
@@ -76,19 +77,9 @@ const CardFood = () => {
         onChange={handleBusqueda}
         className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200 max-md:w-full max-lg:w-2/3"
       ></textarea>
-      <section className="flex flex-row gap-5 w-full 2xl:justify-center 2xl:items-center">
-        <button
-          className="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950 w-1/2 xl:w-96"
-          onClick={handleClickButton}
-        >
-          Buscar
-        </button>
-        <button
-          className="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950 w-1/2 xl:w-96"
-          onClick={deleteResultSearch}
-        >
-          Borrar
-        </button>
+      <section className="flex flex-row gap-5 w-full justify-center 2xl:justify-center 2xl:items-center mt-5">
+        <ClickButton name={'Buscar'} color={'green'} click={handleClickButton} />
+        <ClickButton name={'Borrar'} color={'green'} click={deleteResultSearch} />
       </section>
       {resultSearch.length > 0 ? (
         <table className="w-full xl:w-2/3">

@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import ClickButton from '../components/element/ClickButton'
 ---
 <Layout title="Infomación Uso Alimentos Diabetes">
 		<section class="w-2/3 max-lg:w-full bg-green-100 p-5 mt-3 rounded-xl">
@@ -11,9 +12,7 @@ import Layout from "../layouts/Layout.astro"
 					href="https://www.fundacionparalasalud.org/sabercomer/tabla_de_raciones_de_hidratos_de_carbono"
 					target="_blank"
 					rel="noopener">
-				<button class="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950">
-					Descarga pdf
-				</button>
+				<ClickButton name={'Descargar pdf'} color={'green'} click={() => {}} />
 			</a>
 			</section>
 
@@ -23,7 +22,6 @@ import Layout from "../layouts/Layout.astro"
 			<p>Si pulsamos "Ver más" podremos ver los ejemplo que encontramos en el pdf de algunos alimentos.</p>
 		</section>
 		<a href="/">
-			<button class="bg-green-400 p-2 mt-3 mb-3 rounded-lg border-solid border-4 border-green-700 active:bg-green-950">
-				Atras</button>
+			<ClickButton name={'Atras'} color={'green'} click={() => {}} />
 		</a>
 	</Layout>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ClickButton from '../components/element/ClickButton'
 
 const Calc = ({ cantidadHC }) => {
   const [number, setNumber] = useState();
@@ -23,12 +24,7 @@ const Calc = ({ cantidadHC }) => {
           onChange={handleNumber}
           className="w-12 h-6 mx-2 flex flex-col items-center"
         ></textarea>
-        <button
-          onClick={operator}
-          className="box-border px-2 bg-green-400 border-4 border-green-700 rounded-xl active:border-green-950"
-        >
-          Uds
-        </button>
+        <ClickButton name={'Uds'} color={'green'} click={operator} />
         <div className="bg-green-200 w-9 flex flex-col items-center px-6">
           {result}
         </div>
