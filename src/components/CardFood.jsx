@@ -1,9 +1,9 @@
-import { ALIMENTOS } from "./alimentos/alimentos";
 import { useState } from "react";
+import { ALIMENTOS } from "./alimentos/alimentos";
 import Calc from "./Calc";
-import LittleCard from "./LittleCard";
 import CardLittleFood from "./CardLitteFood";
 import ClickButton from "./element/ClickButton";
+import LittleCard from "./LittleCard";
 
 const CardFood = () => {
   const [element, setElement] = useState("");
@@ -78,8 +78,16 @@ const CardFood = () => {
         className="box-border bg-slate-100 w-1/2 h-12 rounded-lg p-2 border-solid border-2 border-green-300 focus:bg-slate-200 max-md:w-full max-lg:w-2/3"
       ></textarea>
       <section className="flex flex-row gap-5 w-full justify-center 2xl:justify-center 2xl:items-center mt-5">
-        <ClickButton name={'Buscar'} color={'green'} click={handleClickButton} />
-        <ClickButton name={'Borrar'} color={'green'} click={deleteResultSearch} />
+        <ClickButton
+          name={"Buscar"}
+          color={"green"}
+          click={handleClickButton}
+        />
+        <ClickButton
+          name={"Borrar"}
+          color={"green"}
+          click={deleteResultSearch}
+        />
       </section>
       {resultSearch.length > 0 ? (
         <table className="w-full xl:w-2/3">
@@ -89,7 +97,7 @@ const CardFood = () => {
               <th></th>
               <th className="mx-4">
                 {type === "cc"
-                  ? "Ración de HC en cc"
+                  ? "1 Ración de HC en cc"
                   : "1 Ración de HC en gramos"}
               </th>
               <th className="mx-4">IG</th>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ClickButton from '../components/element/ClickButton'
+import ClickButton from "../components/element/ClickButton";
 
 const CardLittleFood = ({ props }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ const CardLittleFood = ({ props }) => {
     <>
       <div>
         {!isOpen && (
-          <ClickButton name={'Ver más'} color={'green'} click={toggleCard} />
+          <ClickButton name={"Ver más"} color={"green"} click={toggleCard} />
         )}
         {isOpen && (
           <div className="absolute z-20 w-auto h-auto bg-yellow-300 flex flex-col items-center justify-center border-4 border-yellow-700 rounded-2xl px-8 py-4">
@@ -23,7 +23,7 @@ const CardLittleFood = ({ props }) => {
                 <tr className="grid grid-cols-3 gap-8">
                   <td>Tipo</td>
                   <td>{props[0]?.cantidadGramos ? "Gramos" : "CC"}</td>
-                  <td>Insulina</td>
+                  <td>Ración</td>
                 </tr>
               </thead>
               <tbody>
@@ -40,7 +40,7 @@ const CardLittleFood = ({ props }) => {
                 ))}
               </tbody>
             </table>
-            <ClickButton name={'Cerrar'} color={'green'} click={toggleCard} />
+            <ClickButton name={"Cerrar"} color={"green"} click={toggleCard} />
           </div>
         )}
       </div>
