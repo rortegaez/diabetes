@@ -96,11 +96,6 @@ const CardFood = () => {
               <th className="mx-4">Alimento</th>
               <th></th>
               <th>1 Ración de HC en gramos</th>
-              {/* <th className="mx-4">
-                {type === "cc"
-                  ? "1 Ración de HC en cc"
-                  : "1 Ración de HC en gramos"}
-              </th> */}
               <th className="mx-4">IG</th>
               <th>Calculadora</th>
             </tr>
