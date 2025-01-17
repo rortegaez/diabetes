@@ -7,7 +7,7 @@ export function useFood () {
 
 	const getFood = () => {
 			console.log(searchFood, "searchoooo");
-			if (searchFood === " ") return null;
+			if (searchFood === "") return null;
 
 			const searchChange = searchFood
 				.toLowerCase()
