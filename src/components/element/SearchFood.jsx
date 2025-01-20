@@ -1,17 +1,16 @@
-import { useState } from "react";
 import { ButtonClick } from "../component/ButtonClick";
 import { useFood } from "../hooks/useFood";
 
+import { CardFood } from "../component/CardFood";
 import style from "../css/searchFood.module.css";
 
 export const SearchFood = () => {
-  const { getFood, searchFood, setSearchFood } = useFood();
-  const [view, setView] = useState(true);
+  const { getFood, searchFood, setSearchFood, food } = useFood();
+  // const [view, setView] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     getFood();
-    setView(!view);
   };
 
   const handleSearch = (event) => {
@@ -33,6 +32,8 @@ export const SearchFood = () => {
           value={searchFood?.value}
           placeholder="Pizza, arroz, patatas..."
         />
+        {<div>{food && food > 0 && <CardFood food={food} />}</div>}
+        <CardFood food={food} />
         <div className={style.buttoms}>
           <ButtonClick type="submit" name={"Buscar"} />
           <ButtonClick type="button" name={"Delete"} onClick={handleDelete} />

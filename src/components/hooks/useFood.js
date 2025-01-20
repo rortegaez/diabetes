@@ -4,9 +4,10 @@ import { FOOD } from "../food/FOOD";
 export function useFood () {
 	const [searchFood, setSearchFood] = useState('')
 	const [error, setError] = useState(null)
+	const [food, setFood] = useState([])
 
 	const getFood = () => {
-			console.log(searchFood, "searchoooo");
+			let foods = []
 			if (searchFood === "") return null;
 
 			const searchChange = searchFood
@@ -19,21 +20,24 @@ export function useFood () {
 					.normalize("NFD")
 					.replace(/[\u0300-\u036f]/g, "");
 				if (alimentoChange.includes(searchChange)) {
-					console.log(item, "item");
+					foods.push(item)
+					setFood(foods)
 				}
 			});
 		};
 
+		// console.log(food, 'usefood')
+
 		useEffect(() => {
-			if (searchFood === "") {
-				setError("No se puede hacer una busqueda vacia");
-				return;
-			}
-			if (searchFood?.match(/^\d+$/)) {
-				setError("No se  =puede realizar una buscqueda por número");
-				return;
-			}
+				if (searchFood === "") {
+					setError("No se puede hacer una busqueda vacia");
+					return;
+				}
+				if (searchFood?.match(/^\d+$/)) {
+					setError("No se puede realizar una buscqueda por número");
+					return;
+				}
 		}, [searchFood]);
 
-		return({getFood, error, setSearchFood})
+		return({getFood, error, searchFood, setSearchFood, food})
 }
