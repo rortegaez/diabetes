@@ -1,18 +1,26 @@
-import { CardLittleFood } from "./CardLittleFood";
-
 import PropTypes from "prop-types";
+import { useState } from "react";
+
+import { ButtonClick } from "./ButtonClick";
 
 export const CardFood = ({ food }) => {
+  const [view, setView] = useState(false);
   console.log(food, "food");
+
+  const see = (event) => {
+    event.preventDefault();
+    console.log("ver");
+    setView(!view);
+  };
+
   return (
     <>
       {food.map((element) => (
         <div key={element.name}>
           <p>{element.Alimento}</p>
           <div>
-            {/* se debe de poner un boton "ver mas" y cuando se haga click entonces sale la tarjeta CardLittleFood */}
             {element.ejemplo?.length > 0 ? (
-              <CardLittleFood props={element.ejemplo} />
+              <ButtonClick name={"Ver más"} type="button" onClick={see} />
             ) : null}
           </div>
           <p>{element.RacionGramos}</p>

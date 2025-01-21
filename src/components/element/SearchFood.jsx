@@ -6,7 +6,6 @@ import style from "../css/searchFood.module.css";
 
 export const SearchFood = () => {
   const { getFood, searchFood, setSearchFood, food } = useFood();
-  // const [view, setView] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
