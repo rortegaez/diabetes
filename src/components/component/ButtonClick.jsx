@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 
-import "../css/buttonClick.module.css";
+import styles from "../css/buttonClick.module.css";
 
 export const ButtonClick = ({ type, name, onClick }) => {
   return (
     <>
-      <button type={type} onClick={onClick} className="but">
+      <button type={type} onClick={onClick} className={styles.button}>
         {name}
       </button>
     </>

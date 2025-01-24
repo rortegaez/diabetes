@@ -1,27 +1,25 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
 
 import { ButtonClick } from "./ButtonClick";
+import { CardLittleFood } from "./CardLittleFood";
 
-export const CardFood = ({ food }) => {
-  const [view, setView] = useState(false);
-  console.log(food, "food");
+import style from "../css/cardFood.module.css";
 
-  const see = (event) => {
-    event.preventDefault();
-    console.log("ver");
-    setView(!view);
-  };
-
+export const CardFood = ({ food, moreFood }) => {
   return (
     <>
-      {food.map((element) => (
-        <div key={element.name}>
+      {food.map((element, index) => (
+        <div key={index}>
           <p>{element.Alimento}</p>
+          {moreFood.includes(element) && (
+            <ButtonClick
+              name={"Ver más"}
+              type="button"
+              element={element.ejemplo}
+            />
+          )}
           <div>
-            {element.ejemplo?.length > 0 ? (
-              <ButtonClick name={"Ver más"} type="button" onClick={see} />
-            ) : null}
+            <CardLittleFood moreFood={moreFood} className={style.card} />
           </div>
           <p>{element.RacionGramos}</p>
           <p>{element.id}</p>
@@ -33,4 +31,5 @@ export const CardFood = ({ food }) => {
 
 CardFood.propTypes = {
   food: PropTypes.array.isRequired,
+  moreFood: PropTypes.array,
 };
