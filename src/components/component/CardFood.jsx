@@ -1,16 +1,17 @@
 import PropTypes from "prop-types";
 
 import { ButtonClick } from "./ButtonClick";
-import { CardLittleFood } from "./CardLittleFood";
-
-import style from "../css/cardFood.module.css";
 
 export const CardFood = ({ food, moreFood }) => {
+  console.log(food, "food");
+
   return (
     <>
       {food.map((element, index) => (
         <div key={index}>
           <p>{element.Alimento}</p>
+          <p>{element.RacionGramos}</p>
+          <p>{element.id}</p>
           {moreFood.includes(element) && (
             <ButtonClick
               name={"Ver más"}
@@ -18,11 +19,9 @@ export const CardFood = ({ food, moreFood }) => {
               element={element.ejemplo}
             />
           )}
-          <div>
+          {/* <div>
             <CardLittleFood moreFood={moreFood} className={style.card} />
-          </div>
-          <p>{element.RacionGramos}</p>
-          <p>{element.id}</p>
+          </div> */}
         </div>
       ))}
     </>
