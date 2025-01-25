@@ -1,9 +1,3 @@
-export const COLOR = {
-  verde: 'bg-green-400',
-  naranja: 'bg-orange-400',
-  rojo: 'bg-red-400'
-}
-
 export const FOOD = [
   {
     id: 1,
@@ -11,7 +5,7 @@ export const FOOD = [
     Alimento: "Cuajada",
     RacionGramos: 175,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -39,7 +33,7 @@ export const FOOD = [
     Alimento: "Helado de crema",
     RacionGramos: 50,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "Bola mediana",
@@ -59,7 +53,7 @@ export const FOOD = [
     Alimento: "Helado de hielo",
     RacionGramos: 50,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "unidad",
@@ -74,7 +68,7 @@ export const FOOD = [
     Alimento: "Helado sin azúcares añadidos",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo:  [
       {
         nombre:"unidad",
@@ -89,7 +83,7 @@ export const FOOD = [
     Alimento: "Leche desnatada",
     RacionGramos: 200,
     IG: 32,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "vaso o taza",
@@ -104,7 +98,7 @@ export const FOOD = [
     Alimento: "Leche semidesnatada",
     RacionGramos: 200,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "vaso o taza",
@@ -119,7 +113,7 @@ export const FOOD = [
     Alimento: "Leche entera",
     RacionGramos: 200,
     IG: 27,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "vaso o taza",
@@ -134,7 +128,7 @@ export const FOOD = [
     Alimento: "Leche condensada",
     RacionGramos: 20,
     IG: 61,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "cuchara sopera",
@@ -149,7 +143,7 @@ export const FOOD = [
     Alimento: "Leche en polvo",
     RacionGramos: 25,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cuchara sopera colmada",
@@ -164,7 +158,7 @@ export const FOOD = [
     Alimento: "Kéfir",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -205,7 +199,7 @@ export const FOOD = [
     Alimento: "Queso tipo Petit Suisse",
     RacionGramos: 75,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -220,7 +214,7 @@ export const FOOD = [
     Alimento: "Queso fresco",
     RacionGramos: 250,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "tarrina individual",
@@ -241,7 +235,7 @@ export const FOOD = [
     Alimento: "Yogur natural, entero o desnatado",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -256,7 +250,7 @@ export const FOOD = [
     Alimento: "Yogur desnatado, de sabores o fruta",
     RacionGramos: 150,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -271,7 +265,7 @@ export const FOOD = [
     Alimento: "Yogur entero, de sabores o fruta",
     RacionGramos: 70,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -286,7 +280,7 @@ export const FOOD = [
     Alimento: "Yogur tipo Actimel",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -301,7 +295,7 @@ export const FOOD = [
     Alimento: "Yogur tipo Actimel 0%",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -316,7 +310,7 @@ export const FOOD = [
     Alimento: "Yogur líquido",
     RacionGramos: 70,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -331,7 +325,7 @@ export const FOOD = [
     Alimento: "Atramuz",
     RacionGramos: 50,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "tapa",
@@ -352,7 +346,7 @@ export const FOOD = [
     Alimento: "Arroz blanco, hervido",
     RacionGramos: 38,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -377,7 +371,7 @@ export const FOOD = [
     Alimento: "Arroz hinchado para el desayuno",
     RacionGramos: 12,
     IG: 85,
-    color: COLOR.rojo
+    color: 'red'
   },
   {
     id: 24,
@@ -391,7 +385,7 @@ export const FOOD = [
     Alimento: "Arroz integral, hervido",
     RacionGramos: 40,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -422,7 +416,7 @@ export const FOOD = [
     Alimento: "Arroz salvaje, hervido",
     RacionGramos: 34,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 28,
@@ -436,7 +430,7 @@ export const FOOD = [
     Alimento: "Boniato",
     RacionGramos: 50,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "tamaño pequeño",
@@ -467,7 +461,7 @@ export const FOOD = [
     Alimento: "Cebada, hervido",
     RacionGramos: 42,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 32,
@@ -475,7 +469,7 @@ export const FOOD = [
     Alimento: "Centeno, crudo",
     RacionGramos: 15,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 33,
@@ -489,7 +483,7 @@ export const FOOD = [
     Alimento: "Cereales desayuno (trigo)",
     RacionGramos: 15,
     IG: 77,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 35,
@@ -497,7 +491,7 @@ export const FOOD = [
     Alimento: "Cereales desayuno, ricos en fibra <10%",
     RacionGramos: 20,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 36,
@@ -505,7 +499,7 @@ export const FOOD = [
     Alimento: "Cereales tipo muesli",
     RacionGramos: 15,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 37,
@@ -519,7 +513,7 @@ export const FOOD = [
     Alimento: "Cuscús, cocido",
     RacionGramos: 45,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 39,
@@ -527,7 +521,7 @@ export const FOOD = [
     Alimento: "Fideos de arroz, hervido",
     RacionGramos: 50,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 40,
@@ -541,7 +535,7 @@ export const FOOD = [
     Alimento: "Galleta tipo Digestiva",
     RacionGramos: 16,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "unidad",
@@ -556,7 +550,7 @@ export const FOOD = [
     Alimento: "Galleta tipo Maria",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -571,7 +565,7 @@ export const FOOD = [
     Alimento: "Galleta tipo Principe",
     RacionGramos: 14,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -586,7 +580,7 @@ export const FOOD = [
     Alimento: "Galleta sin azucar",
     RacionGramos: 18,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -607,7 +601,7 @@ export const FOOD = [
     Alimento: "Garbanzo en conserva",
     RacionGramos: 70,
     IG: 35,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 47,
@@ -615,7 +609,7 @@ export const FOOD = [
     Alimento: "Garbanzo hervido",
     RacionGramos: 55,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "palto grande",
@@ -640,7 +634,7 @@ export const FOOD = [
     Alimento: "Guisantes congelados, frescos, de lata",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -677,7 +671,7 @@ export const FOOD = [
     Alimento: "Harina de cebada o centeno",
     RacionGramos: 17,
     IG: 48,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cuchara sopera rasa",
@@ -692,7 +686,7 @@ export const FOOD = [
     Alimento: "Harina de maiz",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cuchara sopera rasa",
@@ -707,7 +701,7 @@ export const FOOD = [
     Alimento: "Harina de soja",
     RacionGramos: 70,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cuchara sopera rasa",
@@ -722,7 +716,7 @@ export const FOOD = [
     Alimento: "Harina de trigo",
     RacionGramos: 15,
     IG: 78,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cuchara sopera rasa",
@@ -743,7 +737,7 @@ export const FOOD = [
     Alimento: "Hojaldre horneado",
     RacionGramos: 24,
     IG: 56,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 57,
@@ -769,7 +763,7 @@ export const FOOD = [
     Alimento: "Judias blancas, hervido",
     RacionGramos: 55,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -813,7 +807,7 @@ export const FOOD = [
     Alimento: "Lentejas, hervido",
     RacionGramos: 50,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -838,7 +832,7 @@ export const FOOD = [
     Alimento: "Maiz en lata",
     RacionGramos: 50,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "lata pequeña",
@@ -885,7 +879,7 @@ export const FOOD = [
     Alimento: "Mijo, cocido",
     RacionGramos: 53,
     IG: 70,
-    color: COLOR.rojo
+    color: 'red'
   },
   {
     id: 70,
@@ -893,7 +887,7 @@ export const FOOD = [
     Alimento: "Plan blanco (de trigo)",
     RacionGramos: 20,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Barra de 1/4 unos 3cm",
@@ -918,7 +912,7 @@ export const FOOD = [
     Alimento: "Pan de centeno",
     RacionGramos: 20,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 72,
@@ -926,7 +920,7 @@ export const FOOD = [
     Alimento: "Pan de hamburguesa o Frankfurt",
     RacionGramos: 18,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -946,7 +940,7 @@ export const FOOD = [
     Alimento: "Pan de molde",
     RacionGramos: 20,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "rebanada",
@@ -961,7 +955,7 @@ export const FOOD = [
     Alimento: "Pan integral",
     RacionGramos: 23,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 75,
@@ -969,7 +963,7 @@ export const FOOD = [
     Alimento: "Pan rallado",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cuchara sopera colmada",
@@ -984,7 +978,7 @@ export const FOOD = [
     Alimento: "Pan tostado o biscote",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -1025,7 +1019,7 @@ export const FOOD = [
     Alimento: "Pasta alimenticia, hervido",
     RacionGramos: 45,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -1056,7 +1050,7 @@ export const FOOD = [
     Alimento: "Pasta alimenticia integral, hervido",
     RacionGramos: 45,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -1093,7 +1087,7 @@ export const FOOD = [
     Alimento: "Pasta sin gluten",
     RacionGramos: 13,
     IG: 73,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 84,
@@ -1107,7 +1101,7 @@ export const FOOD = [
     Alimento: "Patata hervida",
     RacionGramos: 65,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -1132,7 +1126,7 @@ export const FOOD = [
     Alimento: "Patata, al horno o asada",
     RacionGramos: 35,
     IG: 62,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 87,
@@ -1140,7 +1134,7 @@ export const FOOD = [
     Alimento: "Patatas fritas",
     RacionGramos: 30,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "guarnicion",
@@ -1160,7 +1154,7 @@ export const FOOD = [
     Alimento: "Patatas chips",
     RacionGramos: 20,
     IG: 95,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "bolsa pequeña",
@@ -1175,7 +1169,7 @@ export const FOOD = [
     Alimento: "Pure de patatas, en copos",
     RacionGramos: 15,
     IG: 90,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 90,
@@ -1183,7 +1177,7 @@ export const FOOD = [
     Alimento: "Pure de patata, elaborado con leche",
     RacionGramos: 80,
     IG: 90,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 91,
@@ -1197,7 +1191,7 @@ export const FOOD = [
     Alimento: "Quinoa, hervido",
     RacionGramos: 48,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 93,
@@ -1211,7 +1205,7 @@ export const FOOD = [
     Alimento: "Semola de trigo, hervido",
     RacionGramos: 90,
     IG: 67,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 95,
@@ -1225,7 +1219,7 @@ export const FOOD = [
     Alimento: "Soja seca, hervido",
     RacionGramos: 100,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 97,
@@ -1233,7 +1227,7 @@ export const FOOD = [
     Alimento: "Sushi",
     RacionGramos: 45,
     IG: 42,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "pieza pequeña",
@@ -1259,7 +1253,7 @@ export const FOOD = [
     Alimento: "Tapioca, hervido",
     RacionGramos: 33,
     IG: 84,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 100,
@@ -1273,7 +1267,7 @@ export const FOOD = [
     Alimento: "Trigo sarraceno, hervido",
     RacionGramos: 42,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 102,
@@ -1287,7 +1281,7 @@ export const FOOD = [
     Alimento: "Trigo tierno, hervido",
     RacionGramos: 39,
     IG: 54,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 104,
@@ -1301,7 +1295,7 @@ export const FOOD = [
     Alimento: "Yuca, cocido",
     RacionGramos: 33,
     IG: 55,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 106,
@@ -1309,7 +1303,7 @@ export const FOOD = [
     Alimento: "Aguacate",
     RacionGramos: 160,
     IG: 10,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1324,7 +1318,7 @@ export const FOOD = [
     Alimento: "Albaricoque",
     RacionGramos: 150,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1339,7 +1333,7 @@ export const FOOD = [
     Alimento: "Arandano",
     RacionGramos: 100,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "un puñado, con la mano cerrada",
@@ -1367,7 +1361,7 @@ export const FOOD = [
     Alimento: "Cereza",
     RacionGramos: 100,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "12 unidades",
@@ -1382,7 +1376,7 @@ export const FOOD = [
     Alimento: "Chirimoya",
     RacionGramos: 50,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1397,7 +1391,7 @@ export const FOOD = [
     Alimento: "Ciruela",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "2 unidades",
@@ -1412,7 +1406,7 @@ export const FOOD = [
     Alimento: "Coco fresco",
     RacionGramos: 65,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "tajada mediana",
@@ -1427,7 +1421,7 @@ export const FOOD = [
     Alimento: "Coco seco",
     RacionGramos: 100,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cucharada colmada",
@@ -1442,7 +1436,7 @@ export const FOOD = [
     Alimento: "Datil",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -1457,7 +1451,7 @@ export const FOOD = [
     Alimento: "Frambuesa",
     RacionGramos: 150,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "un puñado, con la mando cerrada",
@@ -1472,7 +1466,7 @@ export const FOOD = [
     Alimento: "Fresones",
     RacionGramos: 200,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "8 unidades grandes",
@@ -1487,7 +1481,7 @@ export const FOOD = [
     Alimento: "Granada",
     RacionGramos: 70,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1502,7 +1496,7 @@ export const FOOD = [
     Alimento: "Grosella",
     RacionGramos: 200,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "un puñado, con la mano cerrda",
@@ -1517,7 +1511,7 @@ export const FOOD = [
     Alimento: "Grosella negra",
     RacionGramos: 140,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "un puñado, con la mano cerrada",
@@ -1532,7 +1526,7 @@ export const FOOD = [
     Alimento: "Higos",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1547,7 +1541,7 @@ export const FOOD = [
     Alimento: "Kiwi",
     RacionGramos: 100,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1567,7 +1561,7 @@ export const FOOD = [
     Alimento: "Litchi",
     RacionGramos: 70,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "6 unidades",
@@ -1582,7 +1576,7 @@ export const FOOD = [
     Alimento: "Mandarina",
     RacionGramos: 100,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1597,7 +1591,7 @@ export const FOOD = [
     Alimento: "Mango",
     RacionGramos: 100,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1612,7 +1606,7 @@ export const FOOD = [
     Alimento: "Manzana",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1627,7 +1621,7 @@ export const FOOD = [
     Alimento: "Manzana asada",
     RacionGramos: 50,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1642,7 +1636,7 @@ export const FOOD = [
     Alimento: "Melocoton",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1657,7 +1651,7 @@ export const FOOD = [
     Alimento: "Melon",
     RacionGramos: 200,
     IG: 60,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "una tajada mediana",
@@ -1672,7 +1666,7 @@ export const FOOD = [
     Alimento: "Membrillo",
     RacionGramos: 150,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1687,7 +1681,7 @@ export const FOOD = [
     Alimento: "Membrillo, dulce",
     RacionGramos: 20,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
   },
   {
     id: 133,
@@ -1695,7 +1689,7 @@ export const FOOD = [
     Alimento: "Moras",
     RacionGramos: 150,
     IG: 25,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "un puñado, con la mano cerrada",
@@ -1710,7 +1704,7 @@ export const FOOD = [
     Alimento: "Naranjas",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1725,7 +1719,7 @@ export const FOOD = [
     Alimento: "Nectarina",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1740,7 +1734,7 @@ export const FOOD = [
     Alimento: "Nispero",
     RacionGramos: 100,
     IG: 55,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1755,7 +1749,7 @@ export const FOOD = [
     Alimento: "Pera",
     RacionGramos: 100,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1769,7 +1763,7 @@ export const FOOD = [
     tipo: "frutas",
     Alimento: "Papaya",
     RacionGramos: 55,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "una tajada",
@@ -1784,7 +1778,7 @@ export const FOOD = [
     Alimento: "Paraguayo",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1799,7 +1793,7 @@ export const FOOD = [
     Alimento: "Piña",
     RacionGramos: 100,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -1814,7 +1808,7 @@ export const FOOD = [
     Alimento: "Piña en conserva",
     RacionGramos: 85,
     IG: 53,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "dos rodajas",
@@ -1829,7 +1823,7 @@ export const FOOD = [
     Alimento: "Piña en su jugo",
     RacionGramos: 60,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "dos rodajas",
@@ -1844,7 +1838,7 @@ export const FOOD = [
     Alimento: "Platano",
     RacionGramos: 50,
     IG: 50,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad pequeña",
@@ -1859,7 +1853,7 @@ export const FOOD = [
     Alimento: "Sandia",
     RacionGramos: 200,
     IG: 75,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "una tajada grande",
@@ -1874,7 +1868,7 @@ export const FOOD = [
     Alimento: "Uva",
     RacionGramos: 50,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "12 unidades",
@@ -1889,7 +1883,7 @@ export const FOOD = [
     Alimento: "Acelga",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -1904,7 +1898,7 @@ export const FOOD = [
     Alimento: "Ajo",
     RacionGramos: 40,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "3 dientes",
@@ -1919,7 +1913,7 @@ export const FOOD = [
     Alimento: "Alcachofa",
     RacionGramos: 300,
     IG: 20,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -1940,7 +1934,7 @@ export const FOOD = [
     Alimento: "Apio",
     RacionGramos: 500,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 151,
@@ -1961,7 +1955,7 @@ export const FOOD = [
     Alimento: "Berenjena",
     RacionGramos: 300,
     IG: 20,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad grande",
@@ -1981,7 +1975,7 @@ export const FOOD = [
     Alimento: "Berro",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 154,
@@ -1989,7 +1983,7 @@ export const FOOD = [
     Alimento: "Berza",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 155,
@@ -1997,7 +1991,7 @@ export const FOOD = [
     Alimento: "Borraja",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 156,
@@ -2005,7 +1999,7 @@ export const FOOD = [
     Alimento: "Brocoli",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -2020,7 +2014,7 @@ export const FOOD = [
     Alimento: "Calabacin",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -2035,7 +2029,7 @@ export const FOOD = [
     Alimento: "Calabaza",
     RacionGramos: 200,
     IG: 75,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 159,
@@ -2043,7 +2037,7 @@ export const FOOD = [
     Alimento: "Cardo",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 160,
@@ -2051,7 +2045,7 @@ export const FOOD = [
     Alimento: "Cebpñña",
     RacionGramos: 150,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2072,7 +2066,7 @@ export const FOOD = [
     Alimento: "Champiñon",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 163,
@@ -2080,7 +2074,7 @@ export const FOOD = [
     Alimento: "Col acida",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 164,
@@ -2088,7 +2082,7 @@ export const FOOD = [
     Alimento: "Col de Bruselas, colifror",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -2103,7 +2097,7 @@ export const FOOD = [
     Alimento: "Edamame",
     RacionGramos: 100,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 166,
@@ -2111,7 +2105,7 @@ export const FOOD = [
     Alimento: "Escarola",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde
+    color: 'green'
   },
   {
     id: 167,
@@ -2119,7 +2113,7 @@ export const FOOD = [
     Alimento: "Endibia",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2134,7 +2128,7 @@ export const FOOD = [
     Alimento: "Esparrago blanco en conserva",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 169,
@@ -2142,7 +2136,7 @@ export const FOOD = [
     Alimento: "Esparrago verde",
     RacionGramos: 500,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 170,
@@ -2150,7 +2144,7 @@ export const FOOD = [
     Alimento: "Espinaca",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 171,
@@ -2164,7 +2158,7 @@ export const FOOD = [
     Alimento: "Judia verde",
     RacionGramos: 250,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -2179,7 +2173,7 @@ export const FOOD = [
     Alimento: "Lechuga",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "racion individual",
@@ -2194,7 +2188,7 @@ export const FOOD = [
     Alimento: "Lombarda",
     RacionGramos: 0,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 175,
@@ -2202,7 +2196,7 @@ export const FOOD = [
     Alimento: "Nabo",
     RacionGramos: 300,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2217,7 +2211,7 @@ export const FOOD = [
     Alimento: "Palmito",
     RacionGramos: 200,
     IG: 20,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2232,7 +2226,7 @@ export const FOOD = [
     Alimento: "Pepino",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2247,7 +2241,7 @@ export const FOOD = [
     Alimento: "Pimiento rojo/verde",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2262,7 +2256,7 @@ export const FOOD = [
     Alimento: "Puerro",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2277,7 +2271,7 @@ export const FOOD = [
     Alimento: "Rabano",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "5 unidades medianas",
@@ -2292,7 +2286,7 @@ export const FOOD = [
     Alimento: "Remolacha",
     RacionGramos: 150,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 182,
@@ -2300,7 +2294,7 @@ export const FOOD = [
     Alimento: "Repollo",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "guarnición",
@@ -2321,7 +2315,7 @@ export const FOOD = [
     Alimento: "Setas",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "plato grande",
@@ -2336,7 +2330,7 @@ export const FOOD = [
     Alimento: "Soja en brotes",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
   },
   {
     id: 186,
@@ -2344,7 +2338,7 @@ export const FOOD = [
     Alimento: "Tomate",
     RacionGramos: 300,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nodmbre: "unidad mediana",
@@ -2359,7 +2353,7 @@ export const FOOD = [
     Alimento: "Zanahoria",
     RacionGramos: 150,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2374,7 +2368,7 @@ export const FOOD = [
     Alimento: "Zanahoria hervida",
     RacionGramos: 200,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad mediana",
@@ -2395,7 +2389,7 @@ export const FOOD = [
     Alimento: "Aceituna",
     RacionGramos: 250,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "una tapa, 12 unidades",
@@ -2410,7 +2404,7 @@ export const FOOD = [
     Alimento: "Albaricoque seco",
     RacionGramos: 15,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Unidad",
@@ -2425,7 +2419,7 @@ export const FOOD = [
     Alimento: "Almendra",
     RacionGramos: 150,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2440,7 +2434,7 @@ export const FOOD = [
     Alimento: "Almendra tostada",
     RacionGramos: 140,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2455,7 +2449,7 @@ export const FOOD = [
     Alimento: "Avellana",
     RacionGramos: 150,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2470,7 +2464,7 @@ export const FOOD = [
     Alimento: "Cacahuete",
     RacionGramos: 100,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2485,7 +2479,7 @@ export const FOOD = [
     Alimento: "Ciruela pasa",
     RacionGramos: 15,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2500,7 +2494,7 @@ export const FOOD = [
     Alimento: "Castaña cruda",
     RacionGramos: 30,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2515,7 +2509,7 @@ export const FOOD = [
     Alimento: "Castaña tostada",
     RacionGramos: 25,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2530,7 +2524,7 @@ export const FOOD = [
     Alimento: "Datil seco",
     RacionGramos: 15,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2545,7 +2539,7 @@ export const FOOD = [
     Alimento: "Higo seco",
     RacionGramos: 15,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "unidad",
@@ -2560,7 +2554,7 @@ export const FOOD = [
     Alimento: "Nuez",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2575,7 +2569,7 @@ export const FOOD = [
     Alimento: "Piñon",
     RacionGramos: 300,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2590,7 +2584,7 @@ export const FOOD = [
     Alimento: "Piñas",
     RacionGramos: 80,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2605,7 +2599,7 @@ export const FOOD = [
     Alimento: "Pistacho",
     RacionGramos: 80,
     IG: 15,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2633,7 +2627,7 @@ export const FOOD = [
     Alimento: "Uva pasa",
     RacionGramos: 15,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "Un puñado, con la mano cerrada",
@@ -2648,7 +2642,7 @@ export const FOOD = [
     Alimento: "bebida de almendra",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -2663,7 +2657,7 @@ export const FOOD = [
     Alimento: "bebida de arroz",
     RacionGramos: 200,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -2678,7 +2672,7 @@ export const FOOD = [
     Alimento: "bebida de avena",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -2693,7 +2687,7 @@ export const FOOD = [
     Alimento: "bebida de cacao",
     RacionGramos: 100,
     IG: 34,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -2708,7 +2702,7 @@ export const FOOD = [
     Alimento: "bebida de soja",
     RacionGramos: 250,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -2723,7 +2717,7 @@ export const FOOD = [
     Alimento: "bebida isotonica",
     RacionGramos: 130,
     IG: 78,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "lata",
@@ -2743,7 +2737,7 @@ export const FOOD = [
     Alimento: "Refresco tipo cola (10% de hidratos de carbono",
     RacionGramos: 200,
     IG: 70,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso",
@@ -2763,7 +2757,7 @@ export const FOOD = [
     Alimento: "Refresco de sabores (4.5% hidratos de carbono)",
     RacionGramos: 200,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Vaso",
@@ -2789,7 +2783,7 @@ export const FOOD = [
     Alimento: "Bitter",
     RacionGramos: 100,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Vaso o botellin",
@@ -2829,7 +2823,7 @@ export const FOOD = [
     Alimento: "Cerveza",
     RacionGramos: 250,
     IG: 110,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Vaso o caña",
@@ -2977,7 +2971,7 @@ export const FOOD = [
     Alimento: "Tonica",
     RacionGramos: 100,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "Vaso o botellín",
@@ -3024,7 +3018,7 @@ export const FOOD = [
     Alimento: "Zumo fruta natural o comercial",
     RacionGramos: 100,
     IG: 60,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -3039,7 +3033,7 @@ export const FOOD = [
     Alimento: "Zumo fruta natural sin azucar añadido",
     RacionGramos: 200,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -3054,7 +3048,7 @@ export const FOOD = [
     Alimento: "Zumo de tomate",
     RacionGramos: 200,
     IG: 35,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Vaso o brick",
@@ -3069,7 +3063,7 @@ export const FOOD = [
     Alimento: "Arepa",
     RacionGramos: 25,
     IG: 72,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3084,7 +3078,7 @@ export const FOOD = [
     Alimento: "Azucar blanco",
     RacionGramos: 10,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cucharada postre",
@@ -3109,7 +3103,7 @@ export const FOOD = [
     Alimento: "Azucar moreno",
     RacionGramos: 10,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cucharada postre",
@@ -3134,7 +3128,7 @@ export const FOOD = [
     Alimento: "Barrita energetica (de cereales)",
     RacionGramos: 20,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3149,7 +3143,7 @@ export const FOOD = [
     Alimento: "Bizcocho o melindro",
     RacionGramos: 20,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3164,7 +3158,7 @@ export const FOOD = [
     Alimento: "Bolleria",
     RacionGramos: 20,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 239,
@@ -3234,7 +3228,7 @@ export const FOOD = [
     Alimento: "Caramelo",
     RacionGramos: 12,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3262,7 +3256,7 @@ export const FOOD = [
     Alimento: "Chocolate blanco o con leche",
     RacionGramos: 17,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "pastilla",
@@ -3282,7 +3276,7 @@ export const FOOD = [
     Alimento: "Chocolate negro",
     RacionGramos: 25,
     IG: 20,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "pastilla",
@@ -3321,7 +3315,7 @@ export const FOOD = [
     Alimento: "Crema de cacao",
     RacionGramos: 25,
     IG: 55,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cucharada sopera colmada",
@@ -3336,7 +3330,7 @@ export const FOOD = [
     Alimento: "Crema de cacahuete",
     RacionGramos: 100,
     IG: 40,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cucharada sopera colmada",
@@ -3390,7 +3384,7 @@ export const FOOD = [
     Alimento: "Cruasan",
     RacionGramos: 20,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3418,7 +3412,7 @@ export const FOOD = [
     Alimento: "Donut",
     RacionGramos: 23,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3459,7 +3453,7 @@ export const FOOD = [
     Alimento: "Ensaimada",
     RacionGramos: 23,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3493,7 +3487,7 @@ export const FOOD = [
     Alimento: "Fructosa (edulcorante)",
     RacionGramos: 10,
     IG: 20,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cucharada sopera",
@@ -3547,7 +3541,7 @@ export const FOOD = [
     Alimento: "Glucosa (liquida o en pastillas)",
     RacionGramos: 10,
     IG: 100,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "pastilla pequeña",
@@ -3577,7 +3571,7 @@ export const FOOD = [
     Alimento: "Golosinas",
     RacionGramos: 18,
     IG: 80,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 268,
@@ -3585,7 +3579,7 @@ export const FOOD = [
     Alimento: "Ketchup",
     RacionGramos: 50,
     IG: 55,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "sobre",
@@ -3600,7 +3594,7 @@ export const FOOD = [
     Alimento: "Lasaña",
     RacionGramos: 100,
     IG: 53,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "palto restaurante",
@@ -3621,7 +3615,7 @@ export const FOOD = [
     Alimento: "Magdalena",
     RacionGramos: 25,
     IG: 70,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "unidad",
@@ -3655,7 +3649,7 @@ export const FOOD = [
     Alimento: "Mermelada",
     RacionGramos: 20,
     IG: 65,
-    color: COLOR.naranja,
+    color: 'orange',
     ejemplo: [
       {
         nombre: "cucharada sopera",
@@ -3670,7 +3664,7 @@ export const FOOD = [
     Alimento: "Mermelada light",
     RacionGramos: 100,
     IG: 30,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "cucharada sopera",
@@ -3685,7 +3679,7 @@ export const FOOD = [
     Alimento: "Miel",
     RacionGramos: 13,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
     ejemplo: [
       {
         nombre: "cucharada sopera",
@@ -3706,7 +3700,7 @@ export const FOOD = [
     Alimento: "Palomitas",
     RacionGramos: 20,
     IG: 85,
-    color: COLOR.rojo,
+    color: 'red',
   },
   {
     id: 279,
@@ -3759,7 +3753,7 @@ export const FOOD = [
     Alimento: "Pizza",
     RacionGramos: 40,
     IG: 45,
-    color: COLOR.verde,
+    color: 'green',
     ejemplo: [
       {
         nombre: "Triangulo 1/4 parte pizza",

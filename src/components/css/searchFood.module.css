@@ -1,8 +1,40 @@
+.container {
+  background-color: var(--bg-green-title);
+  border-radius: 15px;
+  padding: 3vw;
+}
+
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 60%;
+  margin: 1vw;
+  padding: 1vw;
+  font-size: 1.5vw;
+  border-radius: 15px;
 }
 
 .buttoms {
-  margin-top: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+  background-color: var(--bg-green-main);
+  border: 8px solid var(--bg-green-bottom);
+  border-radius: 15px;
+}
+
+.card .hidden {
+  display: none;
 }

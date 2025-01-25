@@ -6,7 +6,6 @@ function App() {
     <>
       <Header />
       <SearchFood />
-      <h1>App Diabetes</h1>
     </>
   );
 }
