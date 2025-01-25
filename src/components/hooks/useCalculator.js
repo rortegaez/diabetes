@@ -1,9 +1,10 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
+import { useRatio } from "./useRatio";
 
 export function useCalculator ({moreFood}) {
 	const [result, setResult] = useState(0);
 	const [inputValue, setInputValue] = useState("");
-  const myRatio = useRef(0.5);
+  const { myRatio } = useRatio();
 
 	const handleInputChange = (event) => {
     setInputValue(event.target.value);

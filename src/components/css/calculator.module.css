@@ -11,9 +11,14 @@
 }
 
 .inputCalc {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   margin-bottom: 2vw;
   border-radius: 15px;
+  text-align: center;
 }
 
 .result {
