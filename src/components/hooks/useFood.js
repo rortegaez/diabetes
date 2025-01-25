@@ -6,6 +6,7 @@ export function useFood () {
 	const [error, setError] = useState(null)
 	const [food, setFood] = useState([])
 	const [moreFood, setMoreFood] = useState([])
+	const [showRatio, setShowRatio] = useState(false);
 
 	const getFood = () => {
 		console.log("getFood");
@@ -41,7 +42,13 @@ export function useFood () {
 		const handleDelete = () => {
 			setFood([])
 			setMoreFood([])
+			setShowRatio(false)
 		}
+
+		const handleShowRatio = () => {
+			console.log("handleShowRaitio");
+			setShowRatio(!showRatio);
+		};
 
 		useEffect(() => {
 				if (searchFood === "") {
@@ -56,5 +63,5 @@ export function useFood () {
 				}
 		}, [searchFood]);
 
-		return({getFood, error, searchFood, setSearchFood, food, moreFood, handleDelete})
+		return({getFood, error, searchFood, setSearchFood, food, moreFood, handleDelete, handleShowRatio, showRatio})
 }

@@ -10,7 +10,7 @@ export const CardLittleFood = ({ moreFood }) => {
       <div className={style.title}>
         <p>Tipo</p>
         <p>Medida</p>
-        <p>Ración</p>
+        <p>Insulina</p>
       </div>
       {moreFood.map((element, index) => (
         <div key={index} className={style.container}>

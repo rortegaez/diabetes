@@ -1,16 +1,24 @@
 import { useEffect, useState } from "react";
 
 import { ButtonClick } from "../component/ButtonClick";
-import { useFood } from "../hooks/useFood";
-
 import { CardFood } from "../component/CardFood";
+import { Ratio } from "../component/Ratio";
+import { useFood } from "../hooks/useFood";
 
 import style from "../css/searchFood.module.css";
 
 export const SearchFood = () => {
   console.log("rendering SearchFood");
-  const { getFood, searchFood, setSearchFood, food, moreFood, handleDelete } =
-    useFood();
+  const {
+    getFood,
+    searchFood,
+    setSearchFood,
+    food,
+    moreFood,
+    handleDelete,
+    showRatio,
+    handleShowRatio,
+  } = useFood();
   const [show, setShow] = useState(false);
 
   console.log(food, "food");
@@ -56,6 +64,12 @@ export const SearchFood = () => {
           onClick={handleDelete}
           className={style.but}
         />
+        <ButtonClick
+          type="button"
+          name={"Ratio"}
+          onClick={handleShowRatio}
+          className={style.but}
+        />
       </div>
       {food && food.length > 0 && (
         <div className={style.card}>
@@ -64,6 +78,11 @@ export const SearchFood = () => {
             moreFood={moreFood}
             className={`${style.card} ${show ? "" : style.hidden}`}
           />
+        </div>
+      )}
+      {showRatio && (
+        <div className={style.card}>
+          <Ratio />
         </div>
       )}
     </div>
