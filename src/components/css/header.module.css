@@ -1,0 +1,7 @@
+.main {
+  background-color: var(--bg-green-title);
+  color: var(--text-green);
+  border-radius: 5px;
+  padding: 3vw;
+  margin-bottom: 2vw;
+}

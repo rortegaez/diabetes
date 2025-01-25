@@ -1,0 +1,96 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
+  background-color: var(--bg-green-bottom);
+  margin-bottom: 2vw;
+}
+
+.title p {
+  color: var(--text-green);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
+}
+
+.container p {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+  height: 50%;
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+}
+.orange {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+  height: 50%;
+  background-color: orange;
+  border-radius: 20px;
+  color: white;
+}
+.red {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
+
+.card {
+  display: none;
+  position: fixed; /* Fijo para que se superponga al resto del contenido */
+  top: 50%; /* Centrado verticalmente */
+  left: 50%; /* Centrado horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste para centrar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  border-radius: 15px; /* Bordes redondeados */
+}
+
+.card.show {
+  display: block; /* Mostrar cuando se agrega la clase 'show' */
+}
+
+.overlay {
+  position: fixed; /* Fijo para cubrir toda la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  z-index: 999; /* Debajo del modal pero encima del resto del contenido */
+}
+
+@media (max-width: 600px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

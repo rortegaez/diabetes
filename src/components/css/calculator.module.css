@@ -1,0 +1,32 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  box-sizing: border-box;
+  padding: 3vw;
+  background-color: var(--bg-modal-orange);
+  border-radius: 15px;
+  border: 8px solid var(--bg-modal-border);
+}
+
+.inputCalc {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-bottom: 2vw;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.result {
+  background-color: var(--bg-green-bottom);
+  height: 40px;
+  width: 300px;
+  margin-bottom: 2vw;
+  border-radius: 15px;
+  border: 5px solid var(--bg-green-title);
+  font-size: xx-large;
+}

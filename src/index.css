@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f0f0ce;
+  --bg-green-title: #2e9d0c;
+  --bg-green-main: #a5e6b0;
+  --bg-green-bottom: #99e31e;
+  --text-green: #032e09;
+  --bg-grenn: #a1ea8b;
+  --bg-orange: #f7b32b;
+  --bg-red: #f72b2b;
+  --bg-modal-orange: #e6c27e;
+  --bg-modal-border: #db9812;
+  --bg-modal-title: #c5c74c;
+}
