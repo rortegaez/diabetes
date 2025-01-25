@@ -4,6 +4,7 @@ import style from "../css/cardLittleFood.module.css";
 
 export const CardLittleFood = ({ moreFood }) => {
   console.log("render CardLittleFood");
+  console.log(moreFood, "moreFood little");
   return (
     <div className={style.card}>
       <div className={style.title}>

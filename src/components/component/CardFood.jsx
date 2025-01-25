@@ -55,27 +55,29 @@ export const CardFood = ({ food, moreFood }) => {
             </p>
             <p>{element.RacionGramos}</p>
             <p className={style[element.color]}>{element.IG}</p>
-            {showMoreId === element.id ||
-              (showCalc === element.id && (
-                <>
-                  <div
-                    className={style.overlay}
-                    onClick={() => {
-                      setShowMoreId(null);
-                      setShowCalc(null);
-                      setActiveComponent(null);
-                    }}
-                  />
-                  <div className={`${style.card} ${style.show}`}>
-                    {activeComponent === "CardLittleFood" && (
+            {(showMoreId === element.id || showCalc === element.id) && (
+              <>
+                <div
+                  className={style.overlay}
+                  onClick={() => {
+                    setShowMoreId(null);
+                    setShowCalc(null);
+                    setActiveComponent(null);
+                  }}
+                />
+                <div className={`${style.card} ${style.show}`}>
+                  {activeComponent === "CardLittleFood" && (
+                    <>
+                      {console.log(element.ejemplo, "element.ejemplo")}
                       <CardLittleFood moreFood={element.ejemplo} />
-                    )}
-                    {activeComponent === "Calculator" && (
-                      <Calculator moreFood={element.RacionGramos} />
-                    )}
-                  </div>
-                </>
-              ))}
+                    </>
+                  )}
+                  {activeComponent === "Calculator" && (
+                    <Calculator moreFood={element.RacionGramos} />
+                  )}
+                </div>
+              </>
+            )}
           </div>
         ))}
       </div>
