@@ -38,3 +38,12 @@
 .card .hidden {
   display: none;
 }
+
+@media (max-width: 600px) {
+  .buttoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -85,3 +85,12 @@
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
   z-index: 999; /* Debajo del modal pero encima del resto del contenido */
 }
+
+@media (max-width: 600px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

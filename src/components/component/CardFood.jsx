@@ -39,7 +39,7 @@ export const CardFood = ({ food, moreFood }) => {
             <p>{element.Alimento}</p>
             <p>
               {moreFood.includes(element) && (
-                <>
+                <div className={style.buttons}>
                   <ButtonClick
                     name={"Ver más"}
                     type="button"
@@ -50,7 +50,7 @@ export const CardFood = ({ food, moreFood }) => {
                     type="button"
                     onClick={() => handleCalc(element.id)}
                   />
-                </>
+                </div>
               )}
             </p>
             <p>{element.RacionGramos}</p>
