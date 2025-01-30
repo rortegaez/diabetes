@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { useRatio } from "../hooks/RatioContext";
 import { useCalculator } from "../hooks/useCalculator";
 import { ButtonClick } from "./ButtonClick";
 
@@ -9,6 +10,7 @@ export const Calculator = ({ moreFood }) => {
   const { result, inputValue, handleInputChange, calcular } = useCalculator({
     moreFood,
   });
+  const { ratio } = useRatio();
 
   return (
     <div className={style.calculator}>
@@ -20,6 +22,7 @@ export const Calculator = ({ moreFood }) => {
       />
       <ButtonClick name="Calcular" type="button" onClick={calcular} />
       <p className={style.result}>{result}</p>
+      <p>Ratio actual: {`${ratio}`} insulina por ración</p>
     </div>
   );
 };
